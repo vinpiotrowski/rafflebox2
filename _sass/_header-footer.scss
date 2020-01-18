@@ -1,0 +1,329 @@
+.container-logo {
+  float: left;
+  margin: 7px 0 0;
+  width: 220px;
+
+  @media(min-width: 768px) {
+    margin: 28px 0;
+  }
+}
+
+.container-logo img {
+  max-width: 100%;
+}
+
+.navigation {
+  float: right;
+
+  .hamburger {
+    position: absolute;
+    right: 0px;
+    top: 21px;
+    z-index: 35;
+
+    span {
+      font-size: 0;
+    }
+
+    + div {
+      background: #F9F9F9;
+      background-image: url("/images/icon-tickets-big.png");
+      background-position: 77% 0;
+      background-repeat: no-repeat;
+      bottom: 0;
+      display: block;
+      left: 100%;
+      overflow: hidden;
+      position: fixed;
+      right: 0;
+      top: 0;
+      transition: left 140ms ease-in-out;
+      z-index: 28;
+    }
+
+    &.active:before {
+      background-image: url("/images/close.png");
+    }
+
+    &.active + div {
+      left: 35px;
+    }
+
+    &:before {
+      background-image: url("/images/hamburger.png");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border-radius: 3px;
+      content: ' ';
+      display: block;
+      height: 35px;
+      width: 35px;
+    }
+
+    @media(min-width: 768px) {
+      display: none;
+
+      + div {
+        background: none;
+        display: block;
+        position: static;
+      }
+    }
+  }
+
+  ul {
+    padding: 14px 0;
+    text-align: center;
+  }
+
+  li {
+    padding: 21px 0;
+    list-style: none;
+  }
+
+  a {
+    color: $black;
+    display: inline-block;
+    font-size: $medium-plus;
+    font-weight: 700;
+    padding: 0 14px;
+    position: relative;
+    text-decoration: none;
+    transition: margin-bottom 140ms ease-in-out;
+
+    span {
+      padding: 0 0 2px;
+      position: relative;
+
+      &:before, &:after {
+        content: "";
+        position: absolute;
+        top: calc(100%);
+        width: 0;
+        right: 0;
+        height: 3px;
+      }
+
+      &:before {
+        transition: width .2s cubic-bezier(.51, .18, 0, .88) .1s;
+        background: $blue;
+      }
+
+      &:after {
+        transition: width .2s cubic-bezier(.29, .18, .26, .83);
+        background: $blue;
+      }
+    }
+
+    &:hover {
+      span {
+        &:before {
+          left: 0;
+          width: 100%;
+        }
+
+        &:after {
+          background: $blue;
+          transition: width .2s cubic-bezier(.51, .18, 0, .88) .1s;
+        }
+      }
+    }
+
+    @media(min-width: 768px) {
+      font-size: $medium;
+    }
+  }
+
+
+
+  @media(min-width: 768px) {
+    ul {
+      float: right;
+      margin: 10px 0;
+      padding: 0;
+      text-align: left;
+    }
+
+    li {
+      display: inline-block;
+      padding: 0;
+    }
+  }
+
+
+  .menu > a:after {
+    content: ' ';
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid $black;
+    display: inline-block;
+    height: 0;
+    position: absolute;
+    right: -7px;
+    top: 14px;
+    width: 0;
+    z-index: 1;
+
+    @media(min-width: 768px) {
+      margin: -5px 0 0 7px;
+      position: static;
+    }
+  }
+
+  .primary-nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .primary-nav:before {
+    background-image: url("/images/rafflebox-logo.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: ' ';
+    display: inline-block;
+    height: 49px;
+    margin: 35px auto 0;
+    width: 49px;
+
+    @media(min-width: 768px) {
+      content: none;
+    }
+  }
+
+  @media(min-width: 768px) {
+    .primary-nav li:last-child a {
+      padding: 0 0 0 14px;
+    }
+  }
+
+  .primary-nav .active {
+    margin-bottom: 21px;
+
+    span {
+      border-bottom: solid 3px $blue;
+    }
+
+    @media(min-width: 768px) {
+      margin-bottom: 42px;
+    }
+  }
+
+  .secondary-nav {
+    background: #EFEFEF;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: all 140ms ease-in-out;
+
+    li {
+      padding: 7px;
+    }
+
+    a {
+      font-size: $small;
+    }
+
+    @media(min-width: 768px) {
+      background: none;
+      bottom: 0;
+      position: absolute;
+      right: 28px;
+
+      li {
+        padding: 0;
+      }
+    }
+  }
+
+  .active + .secondary-nav {
+    max-height: 280px;
+    opacity: 1;
+    padding: 10px 0;
+
+    @media(min-width: 768px) {
+
+      &:before {
+        background: $light-grey;
+        content: "";
+        display: block;
+        height: 1px;
+        left: 0;
+        margin-top: -10px;
+        position: fixed;
+        right: 0;
+      }
+    }
+  }
+
+
+  .account-nav {
+    background: $white;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    width: 100%;
+    z-index: 3;
+
+    @media(min-width: 768px) {
+      position: static;
+    }
+
+    li, a {
+      color: $green;
+      font-size: $medium;
+      font-weight: 100;
+
+      @media(min-width: 768px) {
+        font-size: $small;
+      }
+    }
+
+    ul {
+      margin: 0;
+      @media(min-width: 768px) {
+        margin: 10px 0;
+      }
+    }
+
+    li {
+      display: inline-block;
+      font-weight: 700;
+      padding: 7px 0;
+    }
+
+    li:first-child {
+      display: block;
+      @media(min-width: 768px) {
+        display: inline;
+      }
+    }
+
+    a {
+      font-weight: 100;
+      padding: 0 7px;
+    }
+
+    .login:before {
+      content: "|";
+      color: $green;
+    }
+
+    .label:before {
+      background-image: url("/images/icon-profile.png");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: ' ';
+      display: inline-block;
+      height: 21px;
+      margin-right: 7px;
+      width: 21px;
+    }
+  }
+
+}
+

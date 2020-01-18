@@ -1,0 +1,42 @@
+
+<div class="footer">
+    <p>FOLLOW US</p>
+    <a href="http://twitter.com/" class="twitter"><span>Twitter</span></a>
+    <a href="http://facebook.com/" class="facebook"><span>Facebook</span></a>
+    <p>info@rafflebox.com</p>
+</div>
+
+
+<script type="text/javascript">
+
+    var hamburger = document.getElementById("hamburger-menu");
+    hamburger.addEventListener("click", function(event) {
+        event.preventDefault();
+        this.classList.toggle("active");
+    })
+
+
+    var menus = document.querySelectorAll(".menu > a");
+    for (var i=0; i<menus.length; i++) {
+        menus[i].addEventListener("click", toggleMenu);
+    }
+    function toggleMenu(event) {
+        event.preventDefault();
+        var isActive = -1 !== this.className.indexOf( "active" );
+        var menus = document.querySelectorAll(".menu > a");
+        for (var i=0; i<menus.length; i++) {
+            menus[i].classList.remove("active");
+        }
+        if (isActive) {
+            this.classList.remove("active");
+        } else {
+            this.classList.add("active");
+        }
+    }
+
+</script>
+
+
+
+
+

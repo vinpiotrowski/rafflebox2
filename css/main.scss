@@ -1,0 +1,181 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font: 'Noto Sans', sans-serif;
+
+$white: #FFFFFF;
+
+$black: #313131;
+
+$blue: #2fbbd9;
+
+$blue: #23A1BE;
+
+$green: #56B65E;
+
+$pale-green: #C7EFCA;
+
+$pale-blue: #e9f8fb;
+
+$grey: #636363;
+
+$pale-grey: #999999;
+
+$light-grey: #CCCCCC;
+
+$yellow: #F9D11F;
+
+$pale-yellow: #FEF9E4;
+
+$extra-small: 12px;
+
+$small: 14px;
+
+$medium: 17px;
+
+$medium-plus: 21px;
+
+$large: 42px;
+
+$extra-large: 70px;
+
+
+
+
+body, html {
+  color: $black;
+  font-family: $base-font;
+  font-size: $medium;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.inner-page {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 14px;
+  position: relative;
+
+  @media(min-width: 768px) {
+    padding: 14px 35px;
+  }
+}
+
+
+h1 {
+  font-size: $large;
+  line-height: 1;
+  text-transform: uppercase;
+
+  @media(min-width: 768px) {
+    font-size: $extra-large;
+  }
+}
+
+.primary, .secondary {
+  border-radius: 35px;
+  display: inline-block;
+  font-weight: 700;
+  min-width: 140px;
+  padding: 14px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color .2s ease;
+
+  span {
+    padding: 2px;
+    position: relative;
+    text-shadow: none;
+
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      top: calc(100% - 2px);
+      width: 0;
+      right: 0;
+      height: 2px;
+    }
+
+    &:before {
+      transition: width .2s cubic-bezier(.51,.18,0,.88) .1s;
+      background: $black;
+    }
+
+    &:after {
+      transition: width .2s cubic-bezier(.29,.18,.26,.83);
+      background: $black;
+    }
+  }
+}
+
+.primary:hover span {
+  &:before {
+    left: 0;
+    width: 100%;
+  }
+
+  &:after {
+    background: $black;
+    transition: width .2s cubic-bezier(.51, .18, 0, .88) .1s;
+  }
+}
+
+.primary {
+  background: $white;
+  color: $black!important;
+
+  &:after {
+    content: ' ';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid $green;
+    display: inline-block;
+    height: 0;
+    margin: -9px 0 0 7px;
+    width: 0;
+  }
+}
+
+.secondary {
+  box-shadow: inset 0 0 0 3px $white;
+
+  span {
+    &:before {
+      background: $white;
+    }
+
+    &:after {
+      background: $white;
+    }
+  }
+}
+
+.secondary:hover span {
+  &:before {
+    left: 0;
+    width: 100%;
+  }
+
+  &:after {
+    background: $white;
+    transition: width .2s cubic-bezier(.51, .18, 0, .88) .1s;
+  }
+}
+
+.primary + .secondary {
+  margin-left: 14px!important;
+}
+
+
+
+@import "header-footer";
+@import "grid";
+@import "hero";
+@import "forms";
