@@ -56,6 +56,10 @@ body, html {
   padding: 0;
 }
 
+body {
+  overflow-y: scroll;
+}
+
 .inner-page {
   margin: 0 auto;
   max-width: 1200px;
@@ -75,6 +79,24 @@ h1 {
 
   @media(min-width: 768px) {
     font-size: $extra-large;
+  }
+}
+
+section {
+  .headline {
+    h2 {
+      color: $black;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      color: $green;
+      text-transform: uppercase;
+    }
+
+    h2, h3, p {
+      margin: 0.25em 0;
+    }
   }
 }
 
@@ -178,4 +200,5 @@ h1 {
 @import "header-footer";
 @import "grid";
 @import "hero";
+@import "benefits";
 @import "forms";
