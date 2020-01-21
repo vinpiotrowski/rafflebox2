@@ -19,10 +19,14 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    min-width: 25%;
+    width: 50%;
     position: relative;
     text-align: center;
     z-index:1;
+
+    @media(min-width: 768px) {
+      width: 25%;
+    }
 
     img {
       padding: 0;
@@ -42,6 +46,7 @@
     @include dots;
     background-image: radial-gradient(circle at 3.5px 3.5px, $white 3.5px, transparent 0);
     content: "";
+    display: none;
     height: 14px;
     left: -50%;
     position:absolute;
@@ -49,6 +54,10 @@
     transform: translateX(50%);
     width: 50%;
     z-index: 0;
+
+    @media(min-width: 768px) {
+      display: block;
+    }
   }
 
 
