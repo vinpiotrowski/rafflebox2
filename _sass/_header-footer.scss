@@ -27,7 +27,7 @@
 
     + div {
       background: #F9F9F9;
-      background-image: url("/images/icon-tickets-big.png");
+      background-image: url("../images/icon-tickets-big.png");
       background-position: 77% 0;
       background-repeat: no-repeat;
       bottom: 0;
@@ -42,7 +42,7 @@
     }
 
     &.active:before {
-      background-image: url("/images/close.png");
+      background-image: url("../images/close.png");
     }
 
     &.active + div {
@@ -50,7 +50,7 @@
     }
 
     &:before {
-      background-image: url("/images/hamburger.png");
+      background-image: url("../images/hamburger.png");
       background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: contain;
@@ -177,7 +177,7 @@
   }
 
   .primary-nav:before {
-    background-image: url("/images/rafflebox-logo.png");
+    background-image: url("../images/rafflebox-logo.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -313,7 +313,7 @@
     }
 
     .label:before {
-      background-image: url("/images/icon-profile.png");
+      background-image: url("../images/icon-profile.png");
       background-position: 50% 50%;
       background-repeat: no-repeat;
       background-size: contain;
