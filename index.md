@@ -32,7 +32,7 @@ benefit-description-3="Use social media to target your audience"
 
 benefit-img-4="./images/benefit-reward.png"
 benefit-heading-4="Earn rewards"
-benefit-description-4="Drive larger pots with rewards and other features"
+benefit-description-4="Unique features like rewards for sellers"
 
 benefit-img-5="./images/benefit-security.png"
 benefit-heading-5="Security"
