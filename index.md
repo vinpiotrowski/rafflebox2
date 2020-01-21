@@ -20,7 +20,7 @@ subhead="Our platform is the perfect fit for any school, team or charity."
 
 benefit-img-1="./images/benefit-flexible.png"
 benefit-heading-1="Flexibility"
-benefit-description-1="Run fundraisers online, on-site, or both"
+benefit-description-1="Run fundraisers online, on-site, or do both"
 
 benefit-img-2="./images/benefit-mobile.png"
 benefit-heading-2="Ease of use"
@@ -32,9 +32,28 @@ benefit-description-3="Use social media to target your audience"
 
 benefit-img-4="./images/benefit-reward.png"
 benefit-heading-4="Earn rewards"
-benefit-description-4="Drive larger pots with our unique features"
+benefit-description-4="Drive larger pots with rewards and other features"
 
 benefit-img-5="./images/benefit-security.png"
 benefit-heading-5="Security"
 benefit-description-5="Built by experts and industry approved"
+%}
+
+
+
+{%
+include steps.html
+headline="How it works"
+
+step-img-1="./images/step-account.png"
+step-heading-1="Create an account"
+
+step-img-2="./images/step-setup.png"
+step-heading-2="Set up a raffle"
+
+step-img-3="./images/step-tickets.png"
+step-heading-3="Sell tickets"
+
+step-img-4="./images/step-winner.png"
+step-heading-4="Pick a winner"
 %}

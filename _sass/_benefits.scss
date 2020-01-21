@@ -61,9 +61,7 @@
   }
 
   .decoration {
-    background-image: radial-gradient(circle at 3.5px 3.5px, $pale-green 3.5px, transparent 0);
-    background-size: 21px 21px;
-    background-position: -14px -14px;
+    @include dots;
     bottom: 0;
     display: none;
     height: 210px;

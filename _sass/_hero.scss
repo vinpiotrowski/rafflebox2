@@ -92,4 +92,19 @@
     }
   }
 
+  .decoration {
+    @include dots;
+    background-image: radial-gradient(circle at 3.5px 3.5px, $blue 3.5px, transparent 0);
+    bottom: 0;
+    display: none;
+    height: 210px;
+    right: 14%;
+    position: absolute;
+    width: 140px;
+    z-index: 35;
+
+    @media(min-width: 1200px) {
+      display: block;
+    }
+  }
 }

@@ -22,7 +22,7 @@ $pale-green: #C7EFCA;
 
 $pale-blue: #e9f8fb;
 
-$grey: #636363;
+$grey: #494949;
 
 $pale-grey: #999999;
 
@@ -96,6 +96,12 @@ section {
 
     h2, h3, p {
       margin: 0.25em 0;
+    }
+
+    &.reverse {
+      h2, p {
+        color: $white;
+      }
     }
   }
 }
@@ -195,10 +201,16 @@ section {
   margin-left: 14px!important;
 }
 
+@mixin dots {
+  background-image: radial-gradient(circle at 3.5px 3.5px, $pale-green 3.5px, transparent 0);
+  background-size: 21px 21px;
+  background-position: -14px -14px;
+}
 
 
 @import "header-footer";
 @import "grid";
 @import "hero";
 @import "benefits";
+@import "steps";
 @import "forms";
