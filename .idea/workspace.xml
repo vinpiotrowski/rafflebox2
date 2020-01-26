@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="503">
-                <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+              <first_editor relative-caret-position="597">
+                <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,8 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/slider.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="52" column="100" selection-start-line="52" selection-start-column="100" selection-end-line="52" selection-end-column="100" />
+            <state relative-caret-position="510">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/_steps.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -94,8 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="1615">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
             </state>
           </provider>
         </entry>
@@ -131,15 +140,15 @@
       <find>instruction</find>
       <find>line-height</find>
       <find>/image</find>
-      <find>benefit</find>
-      <find>cta</find>
       <find>.prima</find>
+      <find>cta</find>
+      <find>benefit</find>
     </findStrings>
     <replaceStrings>
       <replace>instruction</replace>
       <replace>step</replace>
-      <replace>product</replace>
       <replace>../images/</replace>
+      <replace>product</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Wince\rafflebox2</dir>
@@ -162,7 +171,6 @@
         <option value="$PROJECT_DIR$/_sass/_benefits.scss" />
         <option value="$PROJECT_DIR$/_includes/instructions.html" />
         <option value="$PROJECT_DIR$/_includes/steps.html" />
-        <option value="$PROJECT_DIR$/_sass/_steps.scss" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_sass/_header-footer.scss" />
         <option value="$PROJECT_DIR$/_includes/products.html" />
@@ -171,18 +179,19 @@
         <option value="$PROJECT_DIR$/_sass/_hero.scss" />
         <option value="$PROJECT_DIR$/products.md" />
         <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/_includes/slider.html" />
-        <option value="$PROJECT_DIR$/index.md" />
         <option value="$PROJECT_DIR$/_sass/_slider.scss" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/_includes/slider.html" />
+        <option value="$PROJECT_DIR$/_sass/_steps.scss" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="893" />
-    <option name="y" value="534" />
-    <option name="width" value="1497" />
-    <option name="height" value="992" />
+    <option name="x" value="609" />
+    <option name="y" value="219" />
+    <option name="width" value="1781" />
+    <option name="height" value="1307" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,6 +216,11 @@
               <item name="rafflebox2" type="b2602c69:ProjectViewProjectNode" />
               <item name="rafflebox2" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rafflebox2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rafflebox2" type="462c0819:PsiDirectoryNode" />
+              <item name="_sass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,18 +266,18 @@
       <option name="presentableId" value="Default" />
       <updated>1578773294328</updated>
       <workItem from="1578773295620" duration="33073000" />
-      <workItem from="1579313150829" duration="76658000" />
+      <workItem from="1579313150829" duration="80935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109731000" />
+    <option name="totallyTimeSpent" value="114008000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="893" y="534" width="1497" height="992" extended-state="0" />
+    <frame x="609" y="219" width="1781" height="1307" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29609323" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24784854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -383,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_steps.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/steps.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -428,23 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="503">
-            <caret line="80" column="41" lean-forward="true" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/slider.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="52" column="100" selection-start-line="52" selection-start-column="100" selection-end-line="52" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -473,10 +463,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="597">
+            <caret line="72" column="41" lean-forward="true" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/slider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_steps.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state relative-caret-position="1615">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
         </state>
       </provider>
     </entry>

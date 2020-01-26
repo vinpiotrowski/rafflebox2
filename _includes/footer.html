@@ -59,33 +59,45 @@
         }
     }
 
-    var sliders = document.querySelectorAll(".container-slider");
-    for (var i=0; i<sliders.length; i++) {
-        var slideWrap = sliders[i];
-        var slides = sliders[i].querySelector(".slides");
-        var slideWidth = slides.querySelector(".slide").offsetWidth + 1;
-        var next = sliders[i].querySelector(".slider-next");
-        next.addEventListener("click", function(e) {
-           e.preventDefault();
-           var offset=parseInt(slides.getAttribute('data-offset')) + slideWidth;
-           slides.setAttribute('style', 'transform: translate3d(' + (-1 * offset) + 'px, 0px, 0px);');
-           slides.setAttribute('data-offset', offset);
-            shouldShowPrevious(offset, prev);
-            setTimeout(function() {shouldShowNext(slideWrap, next)}, 250);
+    function initSlider() {
+        var sliders = document.querySelectorAll(".container-slider");
+        for (var i=0; i<sliders.length; i++) {
+            var slideWrap = sliders[i];
+            var slides = sliders[i].querySelector(".slides");
+            var slideWidth = slides.querySelector(".slide").offsetWidth + 1;
+            var slidesInViewport = Math.floor(slideWrap.offsetWidth / slideWidth);
+            var nextOld = sliders[i].querySelector(".slider-next");
+            var next = nextOld.cloneNode(true);
+            nextOld.parentNode.replaceChild(next, nextOld);
+            next.addEventListener("click", function(e) {
+                e.preventDefault();
+                var offset=parseInt(slides.getAttribute('data-offset')) + (slideWidth * slidesInViewport);
+                slides.setAttribute('style', 'transform: translate3d(' + (-1 * offset) + 'px, 0px, 0px);');
+                slides.setAttribute('data-offset', offset);
+                shouldShowPrevious(offset, prev);
+                setTimeout(function() {shouldShowNext(slideWrap, next)}, 250);
 
-        });
-        var prev = sliders[i].querySelector(".slider-prev");
-        prev.addEventListener("click", function(e) {
-            var offset=parseInt(slides.getAttribute('data-offset')) - slideWidth;
-            e.preventDefault();
-            slides.setAttribute('style', 'transform: translate3d(' + (-1 * offset) + 'px, 0px, 0px);');
-            slides.setAttribute('data-offset', offset);
-            shouldShowPrevious(offset, prev);
-            setTimeout(function() {shouldShowNext(slideWrap, next)}, 250);
-        });
-        shouldShowPrevious(parseInt(slides.getAttribute('data-offset')), prev);
-        shouldShowNext(slideWrap, next);
+            });
+            var prevOld = sliders[i].querySelector(".slider-prev");
+            var prev = prevOld.cloneNode(true);
+            prevOld.parentNode.replaceChild(prev, prevOld);
+            prev.addEventListener("click", function(e) {
+                var offset=parseInt(slides.getAttribute('data-offset')) - (slideWidth * slidesInViewport);
+                e.preventDefault();
+                slides.setAttribute('style', 'transform: translate3d(' + (-1 * offset) + 'px, 0px, 0px);');
+                slides.setAttribute('data-offset', offset);
+                shouldShowPrevious(offset, prev);
+                setTimeout(function() {shouldShowNext(slideWrap, next)}, 250);
+            });
+            shouldShowPrevious(parseInt(slides.getAttribute('data-offset')), prev);
+            shouldShowNext(slideWrap, next);
+        }
     }
+
+    initSlider();
+
+    window.addEventListener("resize", initSlider);
+
 
 
 

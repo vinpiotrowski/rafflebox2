@@ -86,7 +86,9 @@ slide-img-5="./images/slider-test-05.jpg"
 slide-heading-5="Church groups"
 slide-description-5="Run a campaign during an event or configure your campaign to run for weeks"
 
-
+slide-img-6="./images/slider-test-06.jpg"
+slide-heading-6="Everyone"
+slide-description-6="Rafflebox is a great fit for anyone with is a cause who needs to fundraise"
 
 %}
 

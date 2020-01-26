@@ -16,13 +16,24 @@
   }
 
   .step {
+    counter-increment: step-counter;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 21px auto;
     width: 50%;
     position: relative;
     text-align: center;
     z-index:1;
+
+    &:after {
+      color: #282828;
+      content: counter(step-counter);
+      font-size: 105px;
+      font-weight: 700;
+      position: absolute;
+      transform: translate(-125%, -50%);
+      top: 0;
+      z-index: -1;
+    }
 
     @media(min-width: 768px) {
       width: 25%;
