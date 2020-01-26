@@ -40,16 +40,15 @@ benefit-description-5="Built by experts and industry approved"
 %}
 
 
-
 {%
 include steps.html
 headline="How it works"
 
 step-img-1="./images/step-account.png"
-step-heading-1="Create an account"
+step-heading-1="Create account"
 
 step-img-2="./images/step-setup.png"
-step-heading-2="Set up a raffle"
+step-heading-2="Add a raffle"
 
 step-img-3="./images/step-tickets.png"
 step-heading-3="Sell tickets"
@@ -89,6 +88,15 @@ slide-description-5="Run a campaign during an event or configure your campaign t
 slide-img-6="./images/slider-test-06.jpg"
 slide-heading-6="Everyone"
 slide-description-6="Rafflebox is a great fit for anyone with is a cause who needs to fundraise"
+%}
 
+
+
+{% assign logoList = "./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png" | split: ',' %}
+{%
+include logo-farm.html
+headline="Our Partners"
+
+logos=logoList
 %}
 

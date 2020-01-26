@@ -1,0 +1,35 @@
+.container-logo-farm {
+
+  padding: 35px 0;
+  text-align: center;
+
+  .wrapper-logo-farm {
+    display: flex;
+    padding: 35px 0;
+    flex-wrap: wrap;
+
+    @media(min-width: 768px) {
+      flex-wrap: nowrap;
+    }
+
+    > div {
+      display: inline-block;
+      margin: 0 auto;
+      max-width: 105px;
+
+      @media(min-width: 768px) {
+        max-width: none;
+      }
+
+      img {
+        filter: grayscale(100%);
+        max-width: 100%;
+        transition: all ease-in-out 140ms;
+      }
+
+      img:hover {
+        filter: none;
+      }
+    }
+  }
+}

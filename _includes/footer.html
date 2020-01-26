@@ -66,6 +66,7 @@
             var slides = sliders[i].querySelector(".slides");
             var slideWidth = slides.querySelector(".slide").offsetWidth + 1;
             var slidesInViewport = Math.floor(slideWrap.offsetWidth / slideWidth);
+            slidesInViewport = slidesInViewport > 3 ? 3 : slidesInViewport;
             var nextOld = sliders[i].querySelector(".slider-next");
             var next = nextOld.cloneNode(true);
             nextOld.parentNode.replaceChild(next, nextOld);
