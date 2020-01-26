@@ -1,0 +1,54 @@
+<section class="container-slider">
+    <div class="inner-page">
+        <div class="headline">
+            <h3>Get Started</h3>
+            <h2>{{ include.headline }}</h2>
+            <p>{{ include.subhead }}</p>
+        </div>
+
+        <div class="wrapper-slider">
+            <div class="slides" data-offset="0">
+                <div class="slide">
+                    <img src="{{ include.slide-img-1 }}" alt="" />
+                    <div>
+                        <h3>{{ include.slide-heading-1 }}</h3>
+                        <p>{{ include.slide-description-1 }}</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="{{ include.slide-img-2 }}" alt="" />
+                    <div>
+                        <h3>{{ include.slide-heading-2 }}</h3>
+                        <p>{{ include.slide-description-2 }}</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="{{ include.slide-img-3 }}" alt="" />
+                    <div>
+                        <h3>{{ include.slide-heading-3 }}</h3>
+                        <p>{{ include.slide-description-3 }}</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="{{ include.slide-img-4 }}" alt="" />
+                    <div>
+                        <h3>{{ include.slide-heading-4 }}</h3>
+                        <p>{{ include.slide-description-4 }}</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="{{ include.slide-img-5 }}" alt="" />
+                    <div>
+                        <h3>{{ include.slide-heading-5 }}</h3>
+                        <p>{{ include.slide-description-5 }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="slider-prev" href="./#" aria-label="previous"><span>Previous</span></a>
+        <a class="slider-next" href="./#" aria-label="next"><span>Next</span></a>
+    </div>
+
+    <a class="secondary" href="{{ include.button-link }}"><span>{{ include.button-text }}</span></a>
+</section>

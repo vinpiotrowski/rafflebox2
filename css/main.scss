@@ -18,11 +18,15 @@ $blue: #23A1BE;
 
 $green: #56B65E;
 
-$pale-green: #C7EFCA;
+$pale-green: #74c77a;
 
-$pale-blue: #e9f8fb;
+$pale-green: #c6f0c9;
 
-$grey: #494949;
+$pale-blue: #7edff4;
+
+$paler-blue: #d1f2f8;
+
+$grey: #353535;
 
 $pale-grey: #999999;
 
@@ -42,7 +46,7 @@ $medium-plus: 21px;
 
 $large: 42px;
 
-$extra-large: 70px;
+$extra-large: 56px;
 
 
 
@@ -96,6 +100,10 @@ section {
 
     h2, h3, p {
       margin: 0.25em 0;
+    }
+
+    p {
+      line-height: 1.5;
     }
 
     &.reverse {
@@ -172,15 +180,33 @@ section {
 }
 
 .secondary {
-  box-shadow: inset 0 0 0 3px $white;
+  box-shadow: inset 0 0 0 3px $black;
 
   span {
+    color: $black;
+
     &:before {
-      background: $white;
+      background: $black;
     }
 
     &:after {
-      background: $white;
+      background: $black;
+    }
+  }
+
+  &.reverse {
+    box-shadow: inset 0 0 0 3px $white;
+
+    span {
+      color: $white;
+
+      &:before {
+        background: $white;
+      }
+
+      &:after {
+        background: $white;
+      }
     }
   }
 }
@@ -192,13 +218,17 @@ section {
   }
 
   &:after {
-    background: $white;
+    background: $black;
     transition: width .2s cubic-bezier(.51, .18, 0, .88) .1s;
   }
 }
 
 .primary + .secondary {
   margin-left: 14px!important;
+}
+
+p + .secondary {
+  margin-top: 21px;
 }
 
 @mixin dots {
@@ -213,4 +243,6 @@ section {
 @import "hero";
 @import "benefits";
 @import "steps";
+@import "products";
+@import "slider";
 @import "forms";

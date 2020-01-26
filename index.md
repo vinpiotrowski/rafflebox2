@@ -8,15 +8,15 @@ layout: default
 {% 
 include hero.html 
 image-url="./images/hero-test-02.jpg" 
-headline="Fundraising made easy" 
-subhead="Our intuitive platform enables your organization to create and manage online raffles and 50/50 fundraisers." 
+headline="The easy way to fundraise" 
+subhead="Our intuitive platform enables your organization to create and manage online raffles and 50/50 fundraisers" 
 %}
 
 
 {%
 include benefits.html
-headline="Why Choose Rafflebox?"
-subhead="Our platform is the perfect fit for any school, team or charity."
+headline="Why Rafflebox?"
+subhead="Rafflebox provides awesome experiences for organizers and participants!"
 
 benefit-img-1="./images/benefit-flexible.png"
 benefit-heading-1="Flexibility"
@@ -31,8 +31,8 @@ benefit-heading-3="Social reach"
 benefit-description-3="Use social media to target your audience"
 
 benefit-img-4="./images/benefit-reward.png"
-benefit-heading-4="Earn rewards"
-benefit-description-4="Unique features like rewards for sellers"
+benefit-heading-4="Rewards"
+benefit-description-4="Encouragement is built into the platform"
 
 benefit-img-5="./images/benefit-security.png"
 benefit-heading-5="Security"
@@ -57,3 +57,36 @@ step-heading-3="Sell tickets"
 step-img-4="./images/step-winner.png"
 step-heading-4="Pick a winner"
 %}
+
+
+{%
+include slider.html
+headline="Fundraising for Everyone"
+subhead=""
+button-link="./blog.html"
+button-text="Explore success stories"
+
+slide-img-1="./images/slider-test-01.jpg"
+slide-heading-1="Big events"
+slide-description-1="Our technology scales and keeps running smoothly even with stadium-sized audiences"
+
+slide-img-2="./images/slider-test-02.jpg"
+slide-heading-2="Clubs & organizations"
+slide-description-2="It's easy to promote your fundraiser with your own comms and social media"
+
+slide-img-3="./images/slider-test-04.jpg"
+slide-heading-3="Sports Teams"
+slide-description-3="Sell tickets at games and in between games in a way that is safe for all ages"
+
+slide-img-4="./images/slider-test-03.jpg"
+slide-heading-4="Teachers & schools"
+slide-description-4="Rafflebox makes it easy to connect with remote audiences and rewards top sellers"
+
+slide-img-5="./images/slider-test-05.jpg"
+slide-heading-5="Church groups"
+slide-description-5="Run a campaign during an event or configure your campaign to run for weeks"
+
+
+
+%}
+

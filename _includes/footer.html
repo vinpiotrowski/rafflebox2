@@ -9,12 +9,16 @@
 
 <script type="text/javascript">
 
+    // -> Mobile Nav
+
     var hamburger = document.getElementById("hamburger-menu");
     hamburger.addEventListener("click", function(event) {
         event.preventDefault();
         this.classList.toggle("active");
     })
 
+
+    // -> Secondary Nav
 
     var menus = document.querySelectorAll(".menu > a");
     for (var i=0; i<menus.length; i++) {
@@ -33,6 +37,57 @@
             this.classList.add("active");
         }
     }
+
+
+    // -> Slider
+
+    function shouldShowPrevious(offset, button) {
+        if(offset == 0) {
+            button.setAttribute('style', 'display: none;')
+        } else {
+            button.setAttribute('style', '')
+        }
+    }
+
+    function shouldShowNext(slidesWrap, button) {
+        var allSlides = slidesWrap.querySelectorAll(".slide");
+        var lastSlide = allSlides[allSlides.length -1]
+        if(lastSlide.getBoundingClientRect().right > slidesWrap.getBoundingClientRect().right) {
+            button.setAttribute('style', '')
+        } else {
+            button.setAttribute('style', 'display: none;')
+        }
+    }
+
+    var sliders = document.querySelectorAll(".container-slider");
+    for (var i=0; i<sliders.length; i++) {
+        var slideWrap = sliders[i];
+        var slides = sliders[i].querySelector(".slides");
+        var slideWidth = slides.querySelector(".slide").offsetWidth + 1;
+        var next = sliders[i].querySelector(".slider-next");
+        next.addEventListener("click", function(e) {
+           e.preventDefault();
+           var offset=parseInt(slides.getAttribute('data-offset')) + slideWidth;
+           slides.setAttribute('style', 'transform: translate3d(' + (-1 * offset) + 'px, 0px, 0px);');
+           slides.setAttribute('data-offset', offset);
+            shouldShowPrevious(offset, prev);
+            setTimeout(function() {shouldShowNext(slideWrap, next)}, 250);
+
+        });
+        var prev = sliders[i].querySelector(".slider-prev");
+        prev.addEventListener("click", function(e) {
+            var offset=parseInt(slides.getAttribute('data-offset')) - slideWidth;
+            e.preventDefault();
+            slides.setAttribute('style', 'transform: translate3d(' + (-1 * offset) + 'px, 0px, 0px);');
+            slides.setAttribute('data-offset', offset);
+            shouldShowPrevious(offset, prev);
+            setTimeout(function() {shouldShowNext(slideWrap, next)}, 250);
+        });
+        shouldShowPrevious(parseInt(slides.getAttribute('data-offset')), prev);
+        shouldShowNext(slideWrap, next);
+    }
+
+
 
 </script>
 
