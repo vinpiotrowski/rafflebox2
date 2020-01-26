@@ -326,5 +326,98 @@
 }
 
 .footer {
+  background: $grey;
   clear: both;
+  height: 350px;
+  text-align: center;
+
+  .inner-page {
+    height: 100%;
+
+    &:before {
+      background-image: url("../images/rafflebox-logo.png");
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: ' ';
+      display: inline-block;
+      height: 105px;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 105px;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 14px 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 7px;
+  }
+
+  a {
+    color: $white;
+    font-size: $medium-plus;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .footer-nav {
+    margin-top: 70px;
+  }
+
+  .social-nav {
+    a {
+      &:before {
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        display: inline-block;
+        height: 35px;
+        margin: -5px 7px 0;
+        width: 35px;
+      }
+
+      &.twitter:before {
+        background-image: url(../images/icon-twitter.png);
+      }
+
+      &.facebook:before {
+        background-image: url(../images/icon-facebook.png);
+      }
+
+      &.instagram:before {
+        background-image: url(../images/icon-instagram.png);
+      }
+
+      &.linkedin:before {
+        background-image: url(../images/icon-linkedin.png);
+      }
+
+      span {
+        font-size: 0;
+      }
+    }
+  }
+
+  .decoration {
+    @include dots;
+    background-image: radial-gradient(circle at 3.5px 3.5px, #424242 3.5px, transparent 0);
+    bottom: 0;
+    display: none;
+    height: 175px;
+    left: 105px;
+    position: absolute;
+    width: 140px;
+    z-index: 35;
+
+    @media(min-width: 1200px) {
+      display: block;
+    }
+  }
+
 }
