@@ -68,6 +68,7 @@
     height: 70px;
     right: 7px;
     transform: translateY(75%);
+    transition: all ease-in-out 140ms;
     width: 70px;
 
     &.slider-prev {
@@ -77,6 +78,11 @@
 
     span {
       font-size: 0;
+    }
+
+    &:disabled, &[disabled] {
+      background: $light-grey;
+      pointer-events: none;
     }
 
     &:after {
@@ -90,6 +96,7 @@
       position: absolute;
       top: 50%;
       transform: translate(-35%, -50%);
+      transition: all ease-in-out 140ms;
       width: 0;
     }
 
@@ -98,6 +105,18 @@
         border-left: none;
         border-right: 14px solid $white;
         transform: translate(-50%, -50%);
+      }
+    }
+
+    &:hover {
+      &:after {
+        transform: translate(-35%, -50%) scale(1.2);
+      }
+
+      &.slider-prev {
+        &:after {
+          transform: translate(-50%, -50%) scale(1.2);
+        }
       }
     }
   }

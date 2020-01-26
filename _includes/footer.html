@@ -43,9 +43,9 @@
 
     function shouldShowPrevious(offset, button) {
         if(offset == 0) {
-            button.setAttribute('style', 'display: none;')
+            button.setAttribute('disabled', 'true')
         } else {
-            button.setAttribute('style', '')
+            button.removeAttribute('disabled')
         }
     }
 
@@ -53,9 +53,9 @@
         var allSlides = slidesWrap.querySelectorAll(".slide");
         var lastSlide = allSlides[allSlides.length -1]
         if(lastSlide.getBoundingClientRect().right > slidesWrap.getBoundingClientRect().right) {
-            button.setAttribute('style', '')
+            button.removeAttribute('disabled')
         } else {
-            button.setAttribute('style', 'display: none;')
+            button.setAttribute('disabled', 'true')
         }
     }
 
