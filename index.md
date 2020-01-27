@@ -100,3 +100,11 @@ headline="Our Partners"
 logos=logoList
 %}
 
+{%
+include quote.html
+thumbnail="./images/profile-hipster.jpg"
+quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+name="Name McName"
+organization="Title or Organization"
+%}
+
