@@ -1,12 +1,12 @@
 .container-quote {
-  background: linear-gradient(180deg,$grey, 50%,$green 0);
+  background: linear-gradient(180deg,$grey 50%,$green 0);
   overflow: hidden;
   position: relative;
   text-align: center;
   width: 100%;
 
   @media(min-width: 768px) {
-    background: linear-gradient(90deg,$grey, 50%,$green 0);
+    background: linear-gradient(90deg,$grey 50%,$green 0);
     min-height: 420px;
   }
 
