@@ -96,7 +96,6 @@ slide-description-6="Rafflebox is a great fit for anyone with is a cause who nee
 {%
 include logo-farm.html
 headline="Our Partners"
-
 logos=logoList
 %}
 
@@ -106,5 +105,12 @@ thumbnail="./images/profile-hipster.jpg"
 quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 name="Name McName"
 organization="Title or Organization"
+fact-one="Over <em>$80K</em> raised"
+fact-two="<em>250</em> tickets"
+fact-three="<em>30</em> days"
+%}
+
+{%
+include disruptor.html
 %}
 

@@ -347,6 +347,13 @@
       transform: translate(-50%, -50%);
       width: 105px;
     }
+
+    @media(min-width: 768px) {
+      &:before {
+        left: 0;
+        transform: translate(0, -50%);
+      }
+    }
   }
 
   ul {
@@ -356,7 +363,7 @@
 
   li {
     display: inline-block;
-    margin: 0 7px;
+    margin: 0 7px 14px;
   }
 
   a {
@@ -400,6 +407,24 @@
 
       span {
         font-size: 0;
+      }
+    }
+  }
+
+  @media(min-width: 768px) {
+    .footer-nav, .social-nav {
+      float: left;
+      margin-top: 35px;
+      margin-left: 70px
+    }
+
+    .contact-info {
+      float: right;
+      margin-top: 35px;
+      text-align: right;
+
+      li {
+        display: list-item;
       }
     }
   }

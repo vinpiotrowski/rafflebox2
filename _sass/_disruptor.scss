@@ -1,0 +1,22 @@
+.container-disruptor {
+  min-height: 280px;
+  padding: 70px 0;
+  position: relative;
+  text-align: center;
+
+  p {
+    font-size: $medium-plus;
+  }
+
+  .decoration {
+    @include dots;
+    background-image: radial-gradient(circle at 3.5px 3.5px, $pale-green 3.5px, transparent 0);
+    bottom: -49px;
+    height: 175px;
+    right: 105px;
+    position: absolute;
+    width: 140px;
+    z-index: 35;
+  }
+}
+
