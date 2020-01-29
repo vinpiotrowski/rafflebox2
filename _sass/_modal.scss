@@ -1,0 +1,78 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+  z-index: 35;
+}
+
+.modal{
+  background: $white;
+  display: none;
+  position: fixed;
+  top: 33%;
+  left: 50%;
+  height: 54vw;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s ease-out;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  z-index: 42;
+
+  @media(min-width: 768px) {
+    height: 30vw;
+    width: 50vw;
+  }
+
+  iframe, embed, object {
+    left: 50%;
+    position: absolute;
+    max-height: 92%;
+    max-width: 92%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+.modalClose {
+  position: absolute;
+  right:-14px;
+  top:-14px;
+  z-index: 49;
+
+  span {
+    font-size: 0;
+  }
+
+  &:before {
+    background: $white;
+    background-image: url("../images/close.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    border: solid 7px $white;
+    content: ' ';
+    display: block;
+    height: 49px;
+    width: 49px;
+  }
+}
+
+.overlay.active{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.overlay.active + .modal{
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}

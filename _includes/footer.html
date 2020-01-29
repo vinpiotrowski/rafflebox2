@@ -56,6 +56,44 @@
     }
 
 
+    // -> Video
+
+    var vid = document.getElementById("gossVideo");
+    function playVid() {
+        vid.play();
+    }
+    function pauseVid() {
+        vid.pause();
+    }
+
+
+    // -> Modal
+
+    var modalOverlay = document.querySelector(".overlay");
+
+    function closeModal() {
+        modalOverlay.classList.remove("active")
+    }
+
+    var modalCta = document.querySelector(".modalCta");
+    modalCta.addEventListener("click", function(e) {
+        e.preventDefault();
+        modalOverlay.classList.add("active")
+    });
+
+    document.addEventListener("keyup", function(e) {
+        if (e.keyCode == 27) {
+            closeModal();
+        }
+    });
+
+    var modalClose = document.querySelector(".modalClose");
+    modalClose.addEventListener("click", function(e) {
+        e.preventDefault();
+        closeModal();
+    })
+
+
     // -> Slider
 
     function shouldShowPrevious(offset, button) {
