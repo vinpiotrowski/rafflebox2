@@ -18,7 +18,7 @@ $blue: #23A1BE;
 
 $green: #56B65E;
 
-$pale-green: #74c77a;
+$paler-green: #74c77a;
 
 $pale-green: #c6f0c9;
 
@@ -235,6 +235,7 @@ p + .secondary {
   background-image: radial-gradient(circle at 3.5px 3.5px, $pale-green 3.5px, transparent 0);
   background-size: 21px 21px;
   background-position: -14px -14px;
+  z-index: 0;
 }
 
 

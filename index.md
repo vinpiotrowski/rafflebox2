@@ -62,8 +62,7 @@ step-heading-4="Pick a winner"
 include slider.html
 headline="Fundraising for Everyone"
 subhead=""
-button-link="./blog.html"
-button-text="Explore success stories"
+
 
 slide-img-1="./images/slider-test-01.jpg"
 slide-heading-1="Big events"
@@ -91,14 +90,6 @@ slide-description-6="Rafflebox is a great fit for anyone with is a cause who nee
 %}
 
 
-
-{% assign logoList = "./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png" | split: ',' %}
-{%
-include logo-farm.html
-headline="Our Partners"
-logos=logoList
-%}
-
 {%
 include quote.html
 thumbnail="./images/profile-hipster.jpg"
@@ -109,6 +100,15 @@ fact-one="Over <em>$80K</em> raised"
 fact-two="<em>250</em> tickets"
 fact-three="<em>30</em> days"
 %}
+
+
+{% assign logoList = "./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png,./images/logo-hockey-canada.png,./images/logo-nova-scotia-soccer-league.png" | split: ',' %}
+{%
+include logo-farm.html
+headline="Our Partners"
+logos=logoList
+%}
+
 
 {%
 include disruptor.html
