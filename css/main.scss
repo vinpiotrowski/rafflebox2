@@ -231,6 +231,37 @@ p + .secondary {
   margin-top: 21px;
 }
 
+.tertiary {
+  color: $white;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+
+  &:after {
+    border-style: solid;
+    border-width: 0.15em 0.15em 0 0;
+    content: '';
+    display: inline-block;
+    height: 0.45em;
+    left: 0.5em;
+    margin-left: 3px;
+    position: relative;
+    top: 0.35em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.45em;
+  }
+
+  &:after {
+    left: 0;
+    transform: rotate(45deg);
+  }
+
+  &hover {
+    text-decoration: underline;
+  }
+}
+
 @mixin dots {
   background-image: radial-gradient(circle at 3.5px 3.5px, $pale-green 3.5px, transparent 0);
   background-size: 21px 21px;
@@ -247,6 +278,7 @@ p + .secondary {
 @import "products";
 @import "slider";
 @import "logo-farm";
+@import "current-raffles";
 @import "quote";
 @import "disruptor";
 @import "modal";

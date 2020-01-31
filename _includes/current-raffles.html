@@ -1,0 +1,25 @@
+<section class="container-current-raffles">
+    <div class="inner-page">
+        <div class="headline reverse">
+            <h2>{{ include.headline }}</h2>
+            <p>{{ include.subhead }}</p>
+        </div>
+
+        <div class="wrapper-raffles">
+            <div class="raffles" data-offset="0">
+                {% for raffle in site.data.raffles %}
+                <div class="raffle">
+                    <img src="{{ raffle.logo }}" alt="" />
+                    <div>
+                        {{ raffle.name }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <a href="{{ include.ctaLink }}" class="tertiary reverse"><span>{{ include.ctaText }}</span></a>
+    </div>
+</section>
+
+

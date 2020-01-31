@@ -111,6 +111,14 @@ logos=logoList
 
 
 {%
+include current-raffles.html
+
+headline="Live Raffles"
+ctaText="View all raffles"
+ctaLink="https://rafflebox.ca/raffles"
+%}
+
+{%
 include disruptor.html
 %}
 
