@@ -1,14 +1,14 @@
-<section class="container-current-raffles">
+<section class="container-slider container-current-raffles">
     <div class="inner-page">
         <div class="headline reverse">
             <h2>{{ include.headline }}</h2>
             <p>{{ include.subhead }}</p>
         </div>
 
-        <div class="wrapper-raffles">
-            <div class="raffles" data-offset="0">
+        <div class="wrapper-slides wrapper-raffles">
+            <div class="slides raffles" data-offset="0">
                 {% for raffle in site.data.raffles %}
-                <div class="raffle">
+                <div class="slide raffle">
                     <img src="{{ raffle.logo }}" alt="" />
                     <div>
                         {{ raffle.name }}
@@ -17,7 +17,8 @@
                 {% endfor %}
             </div>
         </div>
-
+        <a class="slider-prev" href="./#" aria-label="previous"><span>Previous</span></a>
+        <a class="slider-next" href="./#" aria-label="next"><span>Next</span></a>
         <a href="{{ include.ctaLink }}" class="tertiary reverse"><span>{{ include.ctaText }}</span></a>
     </div>
 </section>
