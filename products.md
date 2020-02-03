@@ -15,27 +15,33 @@ ctaText="Get started"
 %}
 
 
-
 {%
-include products.html
-headline="Our Products"
-subhead="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque, elit eu ullamcorper consectetur, nisi tellus vulputate sapien, quis auctor quam lacus eget est. Cras sit amet sagittis enim, eget pharetra turpis. Nunc at tincidunt erat. Nulla arcu turpis, euismod ac mattis nec, venenatis iaculis nisl."
-button-text="Explore Our Products"
-button-link="./products.html"
+include benefits.html
+prehead="Cost effective"
+headline="Pricing"
+subhead="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
 
-product-img-1="./images/product-5050.png"
-product-heading-1="50 / 50"
+benefit-img-1=""
+benefit-heading-1=""
+benefit-description-1=""
 
-product-img-2="./images/product-venue.png"
-product-heading-2="In Venue"
+benefit-img-2=""
+benefit-heading-2=""
+benefit-description-2=""
 
-product-img-3="./images/product-goldrush.png"
-product-heading-3="Gold Rush"
+benefit-img-3="./images/benefit-pricing.png"
+benefit-heading-3="Social reach"
+benefit-description-3="Use social media to target your audience"
 
-product-img-4="./images/product-raffle.png"
-product-heading-4="Raffle"
+benefit-img-4="./images/benefit-pricing.png"
+benefit-heading-4="Rewards"
+benefit-description-4="Encouragement is built into the platform"
 
+benefit-img-5="./images/benefit-pricing.png"
+benefit-heading-5="Security"
+benefit-description-5="Built by experts and industry approved"
 %}
+
 
 
 {%

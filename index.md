@@ -15,6 +15,7 @@ subhead="Our intuitive platform enables your organization to create and manage o
 
 {%
 include benefits.html
+prehead="Benefits"
 headline="Why Rafflebox?"
 subhead="Rafflebox provides awesome experiences for organizers and participants!"
 

@@ -4,39 +4,49 @@
         <div class="decoration"></div>
 
         <div class="headline">
-            <h3>Benefits</h3>
+            <h3>{{ include.prehead }}</h3>
             <h2>{{ include.headline }}</h2>
             <p>{{ include.subhead }}</p>
         </div>
 
         <div class="benefit">
-            <img src="{{ include.benefit-img-1 }}" alt="" />
-            <h3>{{ include.benefit-heading-1 }}</h3>
-            <p>{{ include.benefit-description-1 }}</p>
+            {% if include.benefit-img-1 != "" %}
+                <img src="{{ include.benefit-img-1 }}" alt="" />
+                <h3>{{ include.benefit-heading-1 }}</h3>
+                <p>{{ include.benefit-description-1 }}</p>
+            {% endif %}
         </div>
 
         <div class="benefit">
-            <img src="{{ include.benefit-img-2 }}" alt="" />
-            <h3>{{ include.benefit-heading-2 }}</h3>
-            <p>{{ include.benefit-description-2 }}</p>
+            {% if include.benefit-img-2 != "" %}
+                <img src="{{ include.benefit-img-2 }}" alt="" />
+                <h3>{{ include.benefit-heading-2 }}</h3>
+                <p>{{ include.benefit-description-2 }}</p>
+            {% endif %}
         </div>
 
         <div class="benefit">
-            <img src="{{ include.benefit-img-3 }}" alt="" />
-            <h3>{{ include.benefit-heading-3 }}</h3>
-            <p>{{ include.benefit-description-3 }}</p>
+            {% if include.benefit-img-3 != "" %}
+                <img src="{{ include.benefit-img-3 }}" alt="" />
+                <h3>{{ include.benefit-heading-3 }}</h3>
+                <p>{{ include.benefit-description-3 }}</p>
+            {% endif %}
         </div>
 
         <div class="benefit">
-            <img src="{{ include.benefit-img-4 }}" alt="" />
-            <h3>{{ include.benefit-heading-4 }}</h3>
-            <p>{{ include.benefit-description-4 }}</p>
+            {% if include.benefit-img-4 != "" %}
+                <img src="{{ include.benefit-img-4 }}" alt="" />
+                <h3>{{ include.benefit-heading-4 }}</h3>
+                <p>{{ include.benefit-description-4 }}</p>
+            {% endif %}
         </div>
 
         <div class="benefit">
+            {% if include.benefit-img-5 != "" %}
             <img src="{{ include.benefit-img-5 }}" alt="" />
             <h3>{{ include.benefit-heading-5 }}</h3>
             <p>{{ include.benefit-description-5 }}</p>
+            {% endif %}
         </div>
     </section>
 </div>
