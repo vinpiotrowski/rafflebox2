@@ -10,6 +10,8 @@ $base-font: 'Montserrat', sans-serif;
 
 $white: #FFFFFF;
 
+$off-white: #f9f9f9;
+
 $black: #313131;
 
 $blue: #2fbbd9;
@@ -232,8 +234,10 @@ p + .secondary {
 }
 
 .tertiary {
-  color: $white;
+  color: $black;
   display: inline-block;
+  font-size: $medium;
+  font-weight: 700;
   position: relative;
   text-decoration: none;
 
@@ -257,7 +261,7 @@ p + .secondary {
     transform: rotate(45deg);
   }
 
-  &hover {
+  &:hover {
     text-decoration: underline;
   }
 }

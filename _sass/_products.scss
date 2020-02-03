@@ -1,7 +1,11 @@
 .container-products {
-  display: flex;
+  background: $off-white;
   padding: 35px 0 0 0;
   position: relative;
+
+  .inner-page {
+    display: flex;
+  }
 
   .wrapper-products {
     display: flex;
@@ -23,15 +27,17 @@
   }
 
   .product {
-    border-radius: 14%;
-    box-shadow: 0 0 14px $blue;
     display: inline-block;
-    margin: 0 auto 49px;
+    margin: 0 auto 35px;
     padding: 0 21px;
     text-align: center;
 
     img {
-      max-width: 105px;
+      border-radius: 50%;
+      box-shadow: 0 0 14px $blue;
+      margin-bottom: 14px;
+      max-width: 119px;
+      padding: 7px;
     }
 
     h3, p {

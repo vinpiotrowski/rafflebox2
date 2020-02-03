@@ -8,25 +8,12 @@
 
     <div class="inner-page">
         <div class="container-headline">
-            <div class="container-icon-group">
-                <img src="./images/icon-ticket.png" alt="" />
-                <img src="./images/icon-phone.png" alt="" />
-                <img src="./images/icon-balls.png" alt="" />
-                <img src="./images/icon-click.png" alt="" />
-            </div>
             <h1>{{ include.headline }}</h1>
             <h3>{{ include.subhead }}</h3>
-            <a class="primary modalCta" href="#"><span>Watch video</span></a>
-            <a class="secondary reverse" href="#"><span>Get started</span></a>
+            <a class="secondary reverse" href="{{ include.ctaLink }}"><span>{{ include.ctaText }}</span></a>
         </div>
-
-        <div class="decoration"></div>
     </div>
 
-    <div class="overlay"></div>
-    <div class="modal">
-        <a href="#" class="modalClose"><span>Close</span></a>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8N_tupPBtWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div class="decoration"></div>
 
 </section>

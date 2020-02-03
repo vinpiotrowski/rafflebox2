@@ -1,5 +1,4 @@
 .container-slider {
-  background: linear-gradient(0deg,$pale-blue 50%,$white 0);
   padding: 35px 0 35px;
   text-align: center;
 
@@ -17,7 +16,7 @@
     .slides {
       display: flex;
       flex-wrap: nowrap;
-      padding-bottom: 35px;
+      padding-bottom: 21px;
       position: relative;
       will-change: transform;
       transition: all ease-in-out 140ms;
@@ -44,13 +43,18 @@
 
         img {
           border-radius: 14px 14px 0 0;
+          border: solid 1px $pale-grey;
+          border-bottom: none;
           display: block;
+          height: 232px;
           max-width: 100%;
           overflow: hidden;
         }
 
         div {
           background: $white;
+          border: solid 1px $pale-grey;
+          border-top: none;
           min-height: 229px;
           padding: 21px;
         }

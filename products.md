@@ -1,15 +1,17 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: default
+title: Products
+permalink: /products.html
 ---
+
 
 {% 
 include hero.html 
-image-url="./images/hero-test-02.jpg" 
-headline="The easy way to fundraise" 
-subhead="Our intuitive platform enables your organization to create and manage online raffles and 50/50 fundraisers" 
+image-url="./images/hero-test-04.jpg" 
+headline="Easy. Flexible. Effective." 
+subhead="Products to accelerate fundraising and grow your cause from any device or platform." 
+ctaLink="https://rafflebox.ca/signup"
+ctaText="Get started"
 %}
 
 
@@ -33,4 +35,9 @@ product-heading-3="Gold Rush"
 product-img-4="./images/product-raffle.png"
 product-heading-4="Raffle"
 
+%}
+
+
+{%
+include disruptor.html
 %}

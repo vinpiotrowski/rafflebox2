@@ -1,5 +1,6 @@
 .container-current-raffles {
   background: $grey;
+  background: linear-gradient(0deg,$off-white 63%,$white 0);
   padding: 35px 0 35px;
   text-align: center;
 
@@ -9,52 +10,8 @@
     width: 100%;
   }
 
-  .wrapper-raffles {
-    box-sizing: border-box;
-    overflow: hidden;
-    position: relative;
-
-    .raffles {
-      display: flex;
-      flex-wrap: nowrap;
-      padding-bottom: 35px;
-      position: relative;
-      will-change: transform;
-      transition: all ease-in-out 140ms;
-
-      .raffle {
-        flex: none;
-        padding: 0 28px;
-        position: relative;
-        overflow: hidden;
-        touch-action: pan-y;
-        width: 100%;
-
-        @media(min-width: 768px) {
-          padding: 0 21px;
-          width: 50%;
-          width: calc( 100% / 2 );
-        }
-
-        @media(min-width: 998px) {
-          padding: 0 14px;
-          width: 33%;
-          width: calc( 100% / 3 );
-        }
-
-        img {
-          display: block;
-          max-width: 100%;
-          overflow: hidden;
-        }
-
-        div {
-          background: $white;
-          min-height: 229px;
-          padding: 21px;
-        }
-      }
-    }
+  .raffle div a {
+    color: $blue;
   }
 
   .slider-prev, .slider-next {
