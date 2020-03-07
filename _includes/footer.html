@@ -76,22 +76,24 @@
     }
 
     var modalCta = document.querySelector(".modalCta");
-    modalCta.addEventListener("click", function(e) {
-        e.preventDefault();
-        modalOverlay.classList.add("active")
-    });
+    if(modalCta) {
+        modalCta.addEventListener("click", function(e) {
+            e.preventDefault();
+            modalOverlay.classList.add("active")
+        });
 
-    document.addEventListener("keyup", function(e) {
-        if (e.keyCode == 27) {
+        var modalClose = document.querySelector(".modalClose");
+        modalClose.addEventListener("click", function(e) {
+            e.preventDefault();
             closeModal();
-        }
-    });
+        })
 
-    var modalClose = document.querySelector(".modalClose");
-    modalClose.addEventListener("click", function(e) {
-        e.preventDefault();
-        closeModal();
-    })
+        document.addEventListener("keyup", function(e) {
+            if (e.keyCode == 27) {
+                closeModal();
+            }
+        });
+    }
 
 
     // -> Slider
@@ -133,6 +135,9 @@
 
     function initSlider() {
         var sliders = document.querySelectorAll(".container-slider");
+        if(!sliders.length) {
+            return;
+        }
         for (var i=0; i<sliders.length; i++) {
             var slideWrap = sliders[i];
             var slides = sliders[i].querySelector(".slides");
@@ -176,7 +181,6 @@
     }
     initSlider();
     window.addEventListener("resize", initSlider);
-
 
 </script>
 

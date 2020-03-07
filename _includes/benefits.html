@@ -9,21 +9,9 @@
             <p>{{ include.subhead }}</p>
         </div>
 
-        <div class="benefit">
-            {% if include.benefit-img-1 != "" %}
-                <img src="{{ include.benefit-img-1 }}" alt="" />
-                <h3>{{ include.benefit-heading-1 }}</h3>
-                <p>{{ include.benefit-description-1 }}</p>
-            {% endif %}
-        </div>
+        <div class="benefit">{% if include.benefit-img-1 != "" %}<img src="{{ include.benefit-img-1 }}" alt="" /><h3>{{ include.benefit-heading-1 }}</h3><p>{{ include.benefit-description-1 }}</p>{% endif %}</div>
 
-        <div class="benefit">
-            {% if include.benefit-img-2 != "" %}
-                <img src="{{ include.benefit-img-2 }}" alt="" />
-                <h3>{{ include.benefit-heading-2 }}</h3>
-                <p>{{ include.benefit-description-2 }}</p>
-            {% endif %}
-        </div>
+        <div class="benefit">{% if include.benefit-img-2 != "" %}<img src="{{ include.benefit-img-2 }}" alt="" /><h3>{{ include.benefit-heading-2 }}</h3><p>{{ include.benefit-description-2 }}</p>{% endif %}</div>
 
         <div class="benefit">
             {% if include.benefit-img-3 != "" %}

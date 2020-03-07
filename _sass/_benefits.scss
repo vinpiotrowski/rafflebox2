@@ -14,7 +14,7 @@
     text-align: center;
     width: 100%;
 
-    @media(min-width: 998px) {
+    @media(min-width: 1200px) {
       text-align: left;
       width: 42%;
     }
@@ -26,24 +26,28 @@
     margin-right: auto;
     width: 100%;
 
-    @media(min-width: 768px) {
-      width: 33%
+    &:empty {
+      display: none;
     }
 
     @media(min-width: 998px) {
+      width: 33%;
+    }
+
+    @media(min-width: 1200px) {
       margin-right: 0;
-      width: 28%
+      width: 28%;
+
+      &:empty {
+        display: inline-block;
+      }
     }
 
     img {
       float: left;
       padding: 0 21px;
       margin-bottom: 70px;
-      max-width: 35%;
-
-      @media(min-width: 768px) {
-        max-width: 42%
-      }
+      max-width: 140px;
 
       @media(min-width: 998px) {
         max-width: 49%

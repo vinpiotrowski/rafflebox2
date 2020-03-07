@@ -59,6 +59,105 @@
       display: block;
     }
   }
-
 }
 
+.container-product-description {
+
+  padding: 35px 0;
+
+  &:nth-child(odd) {
+    background: $off-white;
+  }
+
+  &#classic {
+    background-image: url(../images/watermark-fiftyfifty.png);
+    background-position: calc(50% - 500px) 140px;
+    background-repeat: no-repeat;
+
+    h2:before {
+      background-image: url(../images/product-5050.png);
+    }
+  }
+
+  &#goldrush {
+    background-image: url(../images/watermark-goldrush.png);
+    background-position: calc(50% - 500px) 70px;
+    background-repeat: no-repeat;
+
+    h2:before {
+      background-image: url(../images/product-goldrush.png);
+    }
+  }
+
+  &#raffle {
+    background-image: url(../images/watermark-raffleprize.png);
+    background-position: calc(50% - 500px) 140px;
+    background-repeat: no-repeat;
+
+    h2:before {
+      background-image: url(../images/product-raffle.png);
+    }
+  }
+
+  h2:before {
+    background-image: url(../images/icon-profile.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: ' ';
+    display: inline-block;
+    height: 49px;
+    margin-right: 10.5px;
+    width: 49px;
+  }
+
+  @media(min-width: 768px) {
+    > * {
+      padding: 70px 280px;
+    }
+  }
+}
+
+.audiences {
+  color: $green;
+  font-weight: 700;
+
+  h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  ul {
+    padding: 0 0 14px;
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 3px;
+    margin-right: 14px;
+
+    @media(min-width: 768px) {
+      display: inline-block;
+    }
+  }
+
+  li:before {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: ' ';
+    display: inline-block;
+    height: 21px;
+    margin-right: 7px;
+    width: 21px;
+  }
+  li.schools:before {
+    background-image: url("../images/audience-schools.png");
+  }
+  li.charities:before {
+    background-image: url("../images/audience-charities.png");
+  }
+  li.organizations:before {
+    background-image: url("../images/audience-organizations.png");
+  }
+}

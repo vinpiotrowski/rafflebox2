@@ -1,5 +1,5 @@
 .header {
-  @media(min-width: 768px) {
+  @media(min-width: 998px) {
     &:before {
       background: $light-grey;
       content: "";
@@ -18,7 +18,7 @@
   margin: 7px 0 0;
   width: 220px;
 
-  @media(min-width: 768px) {
+  @media(min-width: 998px) {
     margin: 28px 0;
   }
 }
@@ -76,7 +76,7 @@
       width: 35px;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       display: none;
 
       + div {
@@ -145,14 +145,14 @@
       }
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       font-size: $medium;
     }
   }
 
 
 
-  @media(min-width: 768px) {
+  @media(min-width: 998px) {
     ul {
       float: right;
       margin: 10px 0;
@@ -180,7 +180,7 @@
     width: 0;
     z-index: 1;
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       margin: -5px 0 0 7px;
       position: static;
     }
@@ -202,12 +202,12 @@
     margin: 35px auto 0;
     width: 49px;
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       content: none;
     }
   }
 
-  @media(min-width: 768px) {
+  @media(min-width: 998px) {
     .primary-nav li:last-child a {
       padding: 0 0 0 14px;
     }
@@ -220,7 +220,7 @@
       border-bottom: solid 3px $blue;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       margin-bottom: 56px;
     }
   }
@@ -242,7 +242,7 @@
       font-size: $small;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       background: none;
       bottom: 0;
       position: absolute;
@@ -269,7 +269,7 @@
     width: 100%;
     z-index: 3;
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       position: static;
     }
 
@@ -278,14 +278,14 @@
       font-size: $medium;
       font-weight: 100;
 
-      @media(min-width: 768px) {
+      @media(min-width: 998px) {
         font-size: $small;
       }
     }
 
     ul {
       margin: 0;
-      @media(min-width: 768px) {
+      @media(min-width: 998px) {
         margin: 10px 0;
       }
     }
@@ -298,7 +298,7 @@
 
     li:first-child {
       display: block;
-      @media(min-width: 768px) {
+      @media(min-width: 998px) {
         display: inline;
       }
     }
@@ -350,7 +350,7 @@
       width: 105px;
     }
 
-    @media(min-width: 768px) {
+    @media(min-width: 998px) {
       &:before {
         left: 0;
         transform: translate(0, -50%);
@@ -413,7 +413,7 @@
     }
   }
 
-  @media(min-width: 768px) {
+  @media(min-width: 998px) {
     .footer-nav, .social-nav {
       float: left;
       margin-top: 35px;

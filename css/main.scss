@@ -60,6 +60,7 @@ body, html {
   font-weight: 400;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -109,7 +110,7 @@ section {
     }
 
     &.reverse {
-      h2, p {
+      h4, h3, h2, p {
         color: $white;
       }
     }

@@ -5,6 +5,51 @@
   position: relative;
   text-align: center;
 
+  &.with-images {
+    background: $grey;
+    text-align: left;
+
+    @media(min-width: 768px) {
+      .headline {
+        max-width: 42%;
+      }
+    }
+
+    .wrapper-images {
+      height: 210px;
+      margin-top: 175px;
+      position: relative;
+      width: 100%;
+
+      @media(min-width: 768px) {
+        height: auto;
+        margin-top: auto;
+        position: static;
+        width: auto;
+      }
+    }
+
+    img {
+      border-radius: 14px;
+      left: 35px;
+      max-width: 245px;
+      position: absolute;
+      top: -105px;
+      z-index: 21;
+
+      @media(min-width: 768px) {
+        left: 50%;
+      }
+    }
+
+    img + img {
+      bottom: -105px;
+      left: auto;
+      right: 35px;
+      top: auto;
+    }
+  }
+
   .headline * {
     font-weight: 700;
   }
