@@ -1,0 +1,143 @@
+.container-raffle-list {
+  background: $off-white;
+  border-top: solid 14px $pale-grey;
+  padding: 35px 0 35px;
+  text-align: center;
+
+  .headline {
+    display: inline-block;
+    margin-bottom: 35px;
+    width: 100%;
+  }
+
+  .container-search {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+
+    label {
+      font-size: 0;
+    }
+
+    input[type=search] {
+      background: transparent;
+      border: none;
+      border-bottom: 3px solid $black;
+      border-radius: 0;
+      color: $black;
+      display: table-cell;
+      float: left;
+      font-size: 1.188rem;
+      font-weight: 700;
+      height: 49px;
+      line-height: 2.75rem;
+      position: relative;
+      outline: none;
+      transition: .6s ease;
+      width: calc(100% - 105px);
+      -webkit-appearance: none;
+    }
+
+    button {
+      background: $blue;
+      border: none;
+      box-shadow: none;
+      cursor: pointer;
+      display: table-cell;
+      font-size: 1.188rem;
+      float: right;
+      min-width: 0;
+      position: relative;
+      right: 0;
+      width: 98px;
+      -webkit-appearance: button;
+    }
+
+    @media(min-width: 768px) {
+      width: 70%;
+
+      input[type=search] {
+        width: calc(100% - 175px);
+      }
+
+      button {
+        min-width: 140px;
+      }
+    }
+  }
+
+    .wrapper-raffles {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 21px;
+      position: relative;
+      will-change: transform;
+      transition: all ease-in-out 140ms;
+
+      .raffle {
+        flex: none;
+        margin-bottom: 35px;
+        padding: 0 28px;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+
+        @media(min-width: 768px) {
+          padding: 0 21px;
+          width: 50%;
+          width: calc( 100% / 2 );
+        }
+
+        @media(min-width: 998px) {
+          padding: 0 14px;
+          width: 33%;
+          width: calc( 100% / 3 );
+        }
+
+        img {
+          border-radius: 14px 14px 0 0;
+          border: solid 1px $pale-grey;
+          border-bottom: none;
+          display: block;
+          height: 232px;
+          max-width: 100%;
+          overflow: hidden;
+          width: 100%;
+        }
+
+        div {
+          background: $white;
+          border: solid 1px $pale-grey;
+          border-top: none;
+          min-height: 229px;
+          padding: 21px;
+        }
+      }
+    }
+
+  .link-show-all {
+    display: block;
+    text-align: center;
+    padding: 21px 0;
+    width: 100%;
+  }
+
+  .link-show-all * {
+    color: $black;
+    text-decoration: none;
+  }
+
+  #raffles-list.active .link-show-all,
+  .link-show-all.active {
+    display: none;
+  }
+
+  .link-show-all ~ .raffle {
+    display: none;
+  }
+
+  #raffles-list:not(.active) .link-show-all.active ~ .raffle {
+    display: block;
+  }
+}
+

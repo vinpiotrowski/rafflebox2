@@ -112,11 +112,12 @@ logos=logoList
 
 
 {%
-include current-raffles.html
+include raffles-slider.html
 
+prehead="Featured"
 headline="Live Raffles"
 ctaText="View all raffles"
-ctaLink="https://rafflebox.ca/raffles"
+ctaLink="./raffles.html"
 %}
 
 {%

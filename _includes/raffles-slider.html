@@ -1,7 +1,7 @@
 <section class="container-slider container-current-raffles">
     <div class="inner-page">
         <div class="headline">
-            <h3>Featured</h3>
+            <h3>{{ include.prehead }}</h3>
             <h2>{{ include.headline }}</h2>
             <p>{{ include.subhead }}</p>
         </div>
@@ -10,11 +10,16 @@
             <div class="slides raffles" data-offset="0">
                 {% assign idx = 0 %}
                 {% for raffle in site.data.raffles %}
-                    {% if raffle.show and raffle.active %}
+                    {% if raffle.show and raffle.active and raffle.featured %}
                         <div class="slide raffle">
                             <img src="{{ raffle.logo }}" alt="" />
                             <div>
-                                {{ raffle.name }}
+                                <p class="description">
+                                    {{ raffle.name }}
+                                </p>
+                                <strong class="raffle-price">
+                                    $X,XXX
+                                </strong>
                                 <p>
                                     <a href="https://rafflebox.ca/raffle/{{ raffle.shortLink }}" class="tertiary">View Details</a>
                                 </p>
@@ -28,7 +33,9 @@
         </div>
         <a class="slider-prev" href="./#" aria-label="previous"><span>Previous</span></a>
         <a class="slider-next" href="./#" aria-label="next"><span>Next</span></a>
-        <a href="{{ include.ctaLink }}" class="tertiary"><span>{{ include.ctaText }}</span></a>
+        {% if include.ctaLink %}
+            <a href="{{ include.ctaLink }}" class="tertiary"><span>{{ include.ctaText }}</span></a>
+        {% endif %}
     </div>
 </section>
 

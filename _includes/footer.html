@@ -23,6 +23,10 @@
 
 </div>
 
+<style id="rafflesSearchFilter">
+    /* dynamically generated CSS will be put in here */
+</style>
+
 
 <script type="text/javascript">
 
@@ -181,6 +185,54 @@
     }
     initSlider();
     window.addEventListener("resize", initSlider);
+
+
+
+    // -> Raffle listings
+
+    var showAllButton = document.getElementsByClassName("link-show-all");
+    if(showAllButton) {
+        for(var i=0; i<showAllButton.length; i++) {
+            showAllButton[i].onclick = showAll;
+        }
+    }
+
+    function showAll(event) {
+        var lazy = document.getElementsByClassName("lazy");
+        for(var i=0; i<lazy.length; i++){
+            lazy[i].src = lazy[i].getAttribute("data-src");
+        }
+        var el = this;
+        if ( -1 !== el.className.indexOf( "active" ) ) {
+            el.className = el.className.replace( " active", "" );
+        } else {
+            el.className += " active"
+        }
+        event.preventDefault();
+    }
+
+
+    // -> Raffle search
+
+    var criteria = document.getElementById("raffle-search-criteria");
+    criteria.addEventListener("input", e => {
+        let filter = e.target.value;
+        let css = filter ? `
+            .wrapper-raffles .raffle {
+              display: none;
+            }
+            .wrapper-raffles .raffle[data-tags*="${filter}" i] {
+              display: block;
+            }
+          ` : ``;
+        window.rafflesSearchFilter.innerHTML = css;
+        let rafflesList = document.getElementById("raffles-list")
+        if( filter.length ) {
+            rafflesList.classList.add("active");
+        } else {
+            rafflesList.classList.remove("active");
+        }
+    });
 
 </script>
 

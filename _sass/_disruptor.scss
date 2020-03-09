@@ -5,7 +5,7 @@
   position: relative;
   text-align: center;
 
-  &.with-images {
+  &.with-images, &.with-image {
     background: $grey;
     text-align: left;
 
@@ -50,12 +50,42 @@
     }
   }
 
+  &.with-image {
+
+    background: $green;
+
+    margin-bottom: 35px;
+
+    .wrapper-images {
+      height: 0px;
+      margin-top: 0px;
+    }
+
+    img {
+      max-width: calc(100% - 35px);
+      top: -70px;
+
+      @media(min-width: 768px) {
+        bottom: -105px;
+        max-width: 42%;
+        top: auto;
+      }
+    }
+  }
+
   .headline * {
     font-weight: 700;
   }
 
   p {
+    clear: both;
     font-size: $medium-plus;
+  }
+
+  h3 {
+    background: $blue;
+    float: left;
+    padding: 7px;
   }
 
   .decoration {

@@ -1,0 +1,18 @@
+<section class="container-disruptor with-image" id="{{include.id}}">
+    <div class="inner-page">
+        {% for raffle in site.data.raffles %}
+        {% if raffle.show and raffle.active and raffle.hero %}
+            <div class="headline reverse">
+                <h3><span>{{ include.headline}}</span></h3>
+                <p>{{ raffle.name }}</p>
+                <strong class="raffle-price reverse">$XX,XXX</strong>
+                <a href="https://rafflebox.ca/raffle/{{ raffle.shortLink }}" class="reverse secondary"><span>View details</span></a>
+            </div>
+            <div class="wrapper-images">
+                <img src="{{ raffle.logo }}" alt="" />
+            </div>
+            {% break %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>

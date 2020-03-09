@@ -49,6 +49,7 @@
   "organizationId": 1,
   "show": true,
   "active": true,
+  "featured": true,
   "drawDate": "2020-01-31T16:27:00.000Z",
   "shortLink": "cfsc",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+4.31.43+PM.png"
@@ -58,6 +59,7 @@
   "organizationId": 1,
   "show": true,
   "active": true,
+  "featured": true,
   "drawDate": "2020-01-26T20:58:00.000Z",
   "shortLink": "kodiaks",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-22+at+10.16.56+PM.png"
@@ -67,6 +69,7 @@
   "organizationId": 1,
   "show": true,
   "active": true,
+  "featured": true,
   "drawDate": "2020-01-31T17:45:00.000Z",
   "shortLink": "bobcats",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-30+at+5.33.01+PM.png"
@@ -76,6 +79,7 @@
   "organizationId": 9,
   "show": true,
   "active": true,
+  "featured": true,
   "drawDate": "2020-01-28T17:23:00.000Z",
   "shortLink": "amha",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+6.32.32+PM.png"
@@ -85,6 +89,7 @@
   "organizationId": 1,
   "show": true,
   "active": true,
+  "featured": true,
   "drawDate": "2020-02-24T15:54:00.000Z",
   "shortLink": "dinosws",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-30+at+3.45.23+PM.png"
@@ -103,6 +108,7 @@
   "organizationId": 1,
   "show": true,
   "active": true,
+  "featured": true,
   "drawDate": "2020-02-06T16:36:00.000Z",
   "shortLink": "calgarycanucks",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/RaffleBox+1045x576+(1).png"
@@ -319,6 +325,7 @@
   "organizationId": 1,
   "show": true,
   "active": true,
+  "hero": true,
   "drawDate": "2019-12-21T07:00:00.000Z",
   "shortLink": "cswupremiers06",
   "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+2.41.37+PM.png"

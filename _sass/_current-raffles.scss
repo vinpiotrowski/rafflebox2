@@ -10,12 +10,32 @@
     width: 100%;
   }
 
-  .raffle div a {
-    color: $blue;
-  }
-
   .slider-prev, .slider-next {
     background: $blue;
   }
+}
+
+
+.raffle .description {
+  margin: 7px 0;
+  min-height: 60px;
+}
+
+.raffle-price {
+  display: block;
+  font-family: $price-font;
+  font-size: 200%;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+
+  &:after {
+    content: 'raised';
+    font-size: 50%;
+    font-weight: 100;
+  }
+}
+
+.raffle div a {
+  color: $blue;
 }
 

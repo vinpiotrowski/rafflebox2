@@ -1,0 +1,51 @@
+<section class="container-raffle-list">
+    <div class="inner-page">
+        <div class="headline">
+            <h3>{{ include.prehead }}</h3>
+            <h2>{{ include.headline }}</h2>
+            <p>{{ include.subhead }}</p>
+        </div>
+
+        <div class="container-search">
+            <form>
+                <label for="raffle-search-criteria">Search:</label>
+                <input type="search" id="raffle-search-criteria" name="q" placeholder="Search live raffles..." aria-label="Search live raffles">
+                <button class="secondary reverse" id="raffle-search"><span>Search</span></button>
+            </form>
+        </div>
+
+
+        <div class="wrapper-list wrapper-raffles" id="{{ include.id }}">
+                {% assign idx = 0 %}
+                {% for raffle in site.data.raffles %}
+                    {% if raffle.show and raffle.active and raffle.featured != true %}
+                        <div class="raffle" data-tags="{{ raffle.shortLink}} {{ raffle.name }}">
+                            <img src="{{ raffle.logo }}" alt="" />
+                            <div>
+                                <p class="description">
+                                    {{ raffle.name }}
+                                </p>
+                                <strong class="raffle-price">
+                                    $X,XXX
+                                </strong>
+                                <p>
+                                    <a href="https://rafflebox.ca/raffle/{{ raffle.shortLink }}" class="tertiary">View Details</a>
+                                </p>
+                            </div>
+                        </div>
+                        {% assign idx = idx | plus:1 %}
+                        {% if idx == 9 %}
+                                <a href="#" class="link-show-all">
+                                    <div class="show-all-divider">
+                                        <div class="secondary"><span>Show all live raffles</span></div>
+                                    </div>
+                                </a>
+
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+</section>
+
+

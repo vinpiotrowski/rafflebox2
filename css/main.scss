@@ -8,6 +8,8 @@
 // Our variables
 $base-font: 'Montserrat', sans-serif;
 
+$price-font: 'Baloo Thambi', cursive;
+
 $white: #FFFFFF;
 
 $off-white: #f9f9f9;
@@ -110,7 +112,7 @@ section {
     }
 
     &.reverse {
-      h4, h3, h2, p {
+      h4, h3, h2, p, strong {
         color: $white;
       }
     }
@@ -284,6 +286,7 @@ p + .secondary {
 @import "slider";
 @import "logo-farm";
 @import "current-raffles";
+@import "raffle-list";
 @import "quote";
 @import "disruptor";
 @import "modal";
