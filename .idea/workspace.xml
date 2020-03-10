@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_disruptor.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            <state relative-caret-position="466">
+              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_raffle-list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
+            <state relative-caret-position="1426">
               <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
             </state>
           </provider>
@@ -179,11 +179,11 @@
         <option value="$PROJECT_DIR$/_includes/raffles-slider.html" />
         <option value="$PROJECT_DIR$/_includes/raffle-disruptor.html" />
         <option value="$PROJECT_DIR$/css/main.scss" />
-        <option value="$PROJECT_DIR$/_sass/_disruptor.scss" />
         <option value="$PROJECT_DIR$/_includes/raffles-list.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/raffles.md" />
         <option value="$PROJECT_DIR$/_sass/_raffle-list.scss" />
+        <option value="$PROJECT_DIR$/_sass/_disruptor.scss" />
       </list>
     </option>
   </component>
@@ -276,12 +276,12 @@
       <option name="presentableId" value="Default" />
       <updated>1578773294328</updated>
       <workItem from="1578773295620" duration="33073000" />
-      <workItem from="1579313150829" duration="182608000" />
+      <workItem from="1579313150829" duration="183227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215681000" />
+    <option name="totallyTimeSpent" value="216300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="542" y="254" width="1794" height="1133" extended-state="0" />
@@ -581,13 +581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/_disruptor.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/raffle-disruptor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -635,8 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_raffle-list.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
+        <state relative-caret-position="1426">
           <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_sass/_disruptor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
         </state>
       </provider>
     </entry>
