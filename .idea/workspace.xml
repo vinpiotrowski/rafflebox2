@@ -37,8 +37,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_sass/_disruptor.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            <state relative-caret-position="585">
+              <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/raffle-disruptor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -46,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+            <state relative-caret-position="95">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -55,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/_raffle-list.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1426">
+            <state relative-caret-position="2346">
               <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
             </state>
           </provider>
@@ -118,9 +127,9 @@
       <find>featured</find>
       <find>kodiaks</find>
       <find>kodiakes</find>
-      <find>reverse</find>
-      <find>margin-top</find>
       <find>Calgary Southwest</find>
+      <find>margin-top</find>
+      <find>reverse</find>
     </findStrings>
     <replaceStrings>
       <replace>instruction</replace>
@@ -177,12 +186,12 @@
         <option value="$PROJECT_DIR$/_sass/_current-raffles.scss" />
         <option value="$PROJECT_DIR$/_data/raffles.json" />
         <option value="$PROJECT_DIR$/_includes/raffles-slider.html" />
-        <option value="$PROJECT_DIR$/_includes/raffle-disruptor.html" />
-        <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/_includes/raffles-list.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/raffles.md" />
         <option value="$PROJECT_DIR$/_sass/_raffle-list.scss" />
+        <option value="$PROJECT_DIR$/css/main.scss" />
+        <option value="$PROJECT_DIR$/_includes/raffle-disruptor.html" />
         <option value="$PROJECT_DIR$/_sass/_disruptor.scss" />
       </list>
     </option>
@@ -276,12 +285,12 @@
       <option name="presentableId" value="Default" />
       <updated>1578773294328</updated>
       <workItem from="1578773295620" duration="33073000" />
-      <workItem from="1579313150829" duration="183227000" />
+      <workItem from="1579313150829" duration="185221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216300000" />
+    <option name="totallyTimeSpent" value="218294000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="542" y="254" width="1794" height="1133" extended-state="0" />
@@ -574,20 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/raffle-disruptor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_data/raffles.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -628,15 +623,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_raffle-list.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1426">
+        <state relative-caret-position="2346">
           <caret line="138" column="29" selection-start-line="138" selection-start-column="29" selection-end-line="138" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/raffle-disruptor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/_disruptor.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="585">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
         </state>
       </provider>
     </entry>

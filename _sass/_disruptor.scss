@@ -53,22 +53,24 @@
   &.with-image {
 
     background: $green;
-
     margin-bottom: 35px;
-
-    .wrapper-images {
-      height: 0px;
-      margin-top: 0px;
-    }
+    padding: 21px 0;
 
     img {
-      max-width: calc(100% - 35px);
-      top: -70px;
+      max-width: 100%;
+      position: static;
+    }
 
-      @media(min-width: 768px) {
-        bottom: -105px;
+    @media(min-width: 768px) {
+
+      margin-bottom: 70px;
+      padding: 35px 0;
+
+      img {
+        float: right;
         max-width: 42%;
-        top: auto;
+        position: absolute;
+        top: 0;
       }
     }
   }
