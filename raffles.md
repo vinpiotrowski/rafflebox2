@@ -12,6 +12,8 @@ headline="Trending"
 img-1="./images/raffles-listing-test.jpg"
 %}
 
+
+
 {%
 include raffles-slider.html
 
@@ -20,13 +22,25 @@ headline="Live Raffles"
 %}
 
 
+
 {%
-include raffles-list.html
+include raffles-list-active.html
 
 id="raffles-list"
 prehead="More"
 headline="Live Raffles"
 %}
+
+
+
+{%
+include raffles-list-complete.html
+
+id="raffles-completed"
+prehead="Recently"
+headline="Completed Raffles"
+%}
+
 
 
 {%

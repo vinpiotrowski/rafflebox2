@@ -1,6 +1,6 @@
 .container-raffle-list {
   background: $off-white;
-  border-top: solid 14px $pale-grey;
+  border-top: solid 3px #EEEEEE;
   padding: 35px 0 35px;
   text-align: center;
 
@@ -47,6 +47,7 @@
       font-size: 1.188rem;
       float: right;
       min-width: 0;
+      outline: none;
       position: relative;
       right: 0;
       width: 98px;
@@ -136,7 +137,8 @@
     display: none;
   }
 
-  #raffles-list:not(.active) .link-show-all.active ~ .raffle {
+  #raffles-list:not(.active) .link-show-all.active ~ .raffle,
+  #raffles-completed:not(.active) .link-show-all.active ~ .raffle {
     display: block;
   }
 }

@@ -215,22 +215,47 @@
     // -> Raffle search
 
     var criteria = document.getElementById("raffle-search-criteria");
+    var searchButton = document.getElementById("raffle-search");
     criteria.addEventListener("input", e => {
         let filter = e.target.value;
         let css = filter ? `
-            .wrapper-raffles .raffle {
+            #raffles-list .raffle {
               display: none;
             }
-            .wrapper-raffles .raffle[data-tags*="${filter}" i] {
+            #raffles-list .raffle[data-tags*="${filter}" i] {
               display: block;
             }
           ` : ``;
-        window.rafflesSearchFilter.innerHTML = css;
-        let rafflesList = document.getElementById("raffles-list")
-        if( filter.length ) {
-            rafflesList.classList.add("active");
-        } else {
-            rafflesList.classList.remove("active");
+        if(!filter.length) {
+            window.rafflesSearchFilter.innerHTML = css;
+            let rafflesList = document.getElementById("raffles-list")
+            if( filter.length ) {
+                rafflesList.classList.add("active");
+            } else {
+                rafflesList.classList.remove("active");
+            }
+        }
+    });
+
+    searchButton.addEventListener("click", e => {
+        e.preventDefault();
+        let filter = criteria.value;
+        let css = filter ? `
+            #raffles-list .raffle {
+              display: none;
+            }
+            #raffles-list .raffle[data-tags*="${filter}" i] {
+              display: block;
+            }
+          ` : ``;
+        if(filter.length) {
+            window.rafflesSearchFilter.innerHTML = css;
+            let rafflesList = document.getElementById("raffles-list")
+            if( filter.length ) {
+                rafflesList.classList.add("active");
+            } else {
+                rafflesList.classList.remove("active");
+            }
         }
     });
 
