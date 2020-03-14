@@ -12,7 +12,7 @@
 
   .container-search {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 70px;
     width: 100%;
 
     label {
@@ -68,6 +68,7 @@
   }
 
     .wrapper-raffles {
+      clear: both;
       display: flex;
       flex-wrap: wrap;
       padding-bottom: 21px;

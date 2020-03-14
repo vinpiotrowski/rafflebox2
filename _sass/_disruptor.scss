@@ -1,7 +1,6 @@
 .container-disruptor {
   background: $green;
   min-height: 280px;
-  padding: 70px 0;
   position: relative;
   text-align: center;
 
@@ -34,7 +33,7 @@
       left: 35px;
       max-width: 245px;
       position: absolute;
-      top: -105px;
+      top: -35px;
       z-index: 21;
 
       @media(min-width: 768px) {
@@ -43,7 +42,7 @@
     }
 
     img + img {
-      bottom: -105px;
+      bottom: -35px;
       left: auto;
       right: 35px;
       top: auto;
@@ -53,8 +52,6 @@
   &.with-image {
 
     background: $green;
-    margin-bottom: 35px;
-    padding: 21px 0;
 
     img {
       max-width: 100%;
@@ -63,16 +60,17 @@
 
     @media(min-width: 768px) {
 
-      margin-bottom: 70px;
-      padding: 35px 0;
-
       img {
         float: right;
         max-width: 42%;
         position: absolute;
-        top: 0;
+        top: 35px;
       }
     }
+  }
+
+  .inner-page {
+    padding: 70px 35px;
   }
 
   .headline * {
@@ -93,7 +91,7 @@
   .decoration {
     @include dots;
     background-image: radial-gradient(circle at 3.5px 3.5px, $paler-green 3.5px, transparent 0);
-    bottom: -70px;
+    bottom: 0;
     display: none;
     height: 175px;
     right: 105px;
@@ -105,4 +103,37 @@
     }
   }
 }
+
+.header + .container-disruptor.with-image {
+  &:after {
+    background: $white;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 35px;
+    position: relative;
+  }
+}
+
+.header + .container-disruptor.with-images {
+  &:before {
+    background: $white;
+    content: '';
+    display: block;
+    height: 35px;
+    position: relative;
+    top: 0;
+  }
+
+  &:after {
+    background: $white;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 35px;
+    position: relative;
+  }
+}
+
+
 

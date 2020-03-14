@@ -1,93 +1,185 @@
-
-form {
+.container-form {
+  background: $off-white;
   padding-bottom: 70px;
+
+  .headline, form {
+    margin-top: 70px;
+    max-width: 490px;
+  }
+
+  .extra {
+    max-width: 420px;
+
+    p {
+      font-size: $small;
+    }
+
+    @media (min-width: 768px) {
+      padding: 35px;
+    }
+  }
+
+  form {
+    margin: 35px 0;
+
+    label {
+      color: $black;
+      display: block;
+      font-size: $small;
+      font-weight: 700;
+      line-height: 1.5;
+      margin: 5px 0 3px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="number"],
+    input[type="date"],
+    input[type="email"],
+    input[type="tel"] {
+      background: $white;
+      border: solid 2px $pale-grey;
+      border-radius: 3px;
+      box-shadow: none;
+      clear: both;
+      display: block;
+      font-size: $medium;
+      height: 35px;
+      margin: 0 0 21px;
+      outline: none !important;
+      padding: 10.5px;
+      width: 100%;
+
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+    }
+
+    .container-select {
+      border: solid 2px $pale-grey;
+      border-radius: 3px;
+      clear: both;
+      display: block;
+      height: 38px;
+      overflow: hidden;
+      padding: 0;
+      margin: 0 0 14px;
+      position: relative;
+      width: 100%;
+    }
+
+    .container-select select {
+      background: transparent;
+      border: none;
+      border-color: transparent;
+      bottom: 0;
+      box-shadow: none;
+      cursor: pointer;
+      font-size: $medium;
+      height: 35px;
+      left: 0;
+      outline: 0 !important;
+      outline-style: none;
+      padding: 7px;
+      position: absolute;
+      top: 0;
+      width: 140%;
+      z-index: 11;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      -o-appearance: none;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+    }
+
+    .container-select:after {
+      bottom: 1px;
+      content: url('../images/arrow-down.png');
+      cursor: pointer;
+      padding: 7px;
+      pointer-events: none;
+      position: absolute;
+      right: 1px;
+      top: 1px;
+      transform: scale(0.42);
+      z-index: 17;
+    }
+
+    button {
+      background: $blue;
+      border: none;
+      box-shadow: none !important;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-top: 14px;
+      min-width: 0;
+      outline: none;
+      width: 98px;
+      -webkit-appearance: button;
+    }
+  }
+
+  @media(min-width: 768px) {
+    .wrapper-form {
+      display: flex;
+
+      form {
+        min-width: 420px;
+      }
+    }
+  }
+
+  @media(min-width: 998px) {
+    .wrapper-form {
+      form {
+        min-width: 490px;
+      }
+    }
+  }
+
+  .container-form-fields {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  .container-form-success, .container-form-error {
+    display: none;
+    margin-bottom: 28vh;
+
+    &.active {
+      display: block;
+    }
+
+    .decoration {
+      @include dots;
+      background-image: radial-gradient(circle at 3.5px 3.5px, $paler-green 3.5px, transparent 0);
+      bottom: -70px;
+      display: none;
+      height: 350px;
+      right: 105px;
+      position: absolute;
+      width: 140px;
+
+      @media(min-width: 768px) {
+        display: block;
+      }
+    }
+  }
+
 }
 
-form label {
-  color: $black;
-  font-size: $small;
-  line-height: 1.5;
-  margin: 5px 0 3px;
-}
-
-form input[type="text"],
-form input[type="password"],
-form input[type="number"],
-form input[type="date"],
-form input[type="email"],
-form input[type="tel"],
-form input[type="search"] {
-  background: $white;
-  border: solid 1px $black;
-  border-radius: 0;
-  box-shadow: none;
-  clear: both;
-  display: block;
-  font-size: $medium;
-  height: 35px;
-  margin: 0 0 14px;
-  outline: none !important;
-  padding: 7px;
-  width: 100%;
-
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-}
-
-form .container-select {
-  border: solid 1px $black;
-  clear: both;
-  display: block;
-  height: 38px;
-  overflow: hidden;
-  padding: 0;
-  margin: 0 0 14px;
-  position: relative;
-  width: 100%;
-}
-
-form .container-select select {
-  background: transparent;
-  border: none;
-  border-radius: 0;
-  border-color: transparent;
-  bottom: 0;
-  box-shadow: none;
-  cursor: pointer;
-  font-size: $medium;
-  height: 35px;
-  left: 0;
-  outline: 0 !important;
-  outline-style: none;
-  padding: 7px;
-  position: absolute;
-  top: 0;
-  width: 140%;
-  z-index: 11;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-}
-
-form .container-select:after {
-  bottom: 1px;
-  content: url('../images/arrow-down.png');
-  cursor: pointer;
-  padding: 7px;
-  pointer-events: none;
-  position: absolute;
-  right: 1px;
-  top: 1px;
-  transform: scale(0.42);
-  z-index: 17;
-}
-
-.sign-up-success .container-image, .sign-up-failure .container-image {
-  margin: 0 0 70px;
-  max-width: 140px;
+.header + .container-form {
+  &:before {
+    background: $green;
+    content: '';
+    display: block;
+    height: 14px;
+    position: relative;
+    top: 0;
+  }
 }

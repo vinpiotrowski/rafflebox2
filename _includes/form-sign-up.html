@@ -1,0 +1,110 @@
+<section class="container-form">
+    <div class="inner-page container-form-fields active">
+        <div class="headline">
+            <h3>{{ include.prehead }}</h3>
+            <h2>{{ include.headline }}</h2>
+            <p>{{ include.subhead }}</p>
+        </div>
+        <div class="wrapper-form">
+            <form id="sign-up-form" method="POST" action="/signup">
+                <label>Organization name</label>
+                <input type="text" name="organization" id="organization" required="">
+
+                <label>Contact name</label>
+                <input type="text" name="name" id="name" required="">
+
+                <label>Position (within organization)</label>
+                <input type="text" name="position" id="position" required="">
+
+                <label>Contact phone number</label>
+                <input type="tel" name="phone" id="phone" required="">
+
+                <label>Contact email</label>
+                <input type="email" name="email" id="email" required="">
+
+                <label>Province / Territory</label>
+                <select class="container-select" id="province" name="province" required="">
+                    <option value="AB">Alberta</option>
+                    <option value="BC">British Columbia</option>
+                    <option value="MB">Manitoba</option>
+                    <option value="NB">New Brunswick</option>
+                    <option value="NF">Newfoundland and Labrador</option>
+                    <option value="NS">Nova Scotia</option>
+                    <option value="ON">Ontario</option>
+                    <option value="PE">Prince Edward Island</option>
+                    <option value="SK">Saskatchewan</option>
+                    <option value="QC">Quebec</option>
+                    <option value="NT">North West Territories</option>
+                    <option value="NU">Nunavut</option>
+                    <option value="YT">Yukon</option>
+                </select>
+                <button type="submit" class="secondary reverse"><span>Submit</span></button>
+            </form>
+
+            <div class="extra">
+                <h3>Note</h3>
+                <p>We are currently only able to run raffles in Alberta, British Columbia, Nova Scotia, Newfoundland and PEI (Prince Edward Island).</p>
+                <p>However, if you're looking for general information or to be put on a list to be notified when we can serve your region, still please feel free sign up. In the near future we plan on serving additional provinces. Stay tuned!</p>
+            </div>
+        </div>
+    </div>
+    <div class="inner-page">
+        <div class="container-form-success headline">
+            <div class="decoration"></div>
+            <h3>Success</h3>
+            <h2>Thanks for signing up!</h2>
+            <p>We've received your sign up request and will be contacting you shortly.</p>
+            <a href="/" class="tertiary"><span>Back to Rafflebox</span></a>
+        </div>
+
+        <div class="container-form-error headline">
+            <div class="decoration"></div>
+            <h3>Error</h3>
+            <h2>Oops, something went wrong!</h2>
+            <p>We've couldn't send your sign-up request at this time.  Please try again later.</p>
+        </div>
+    </div>
+
+</section>
+
+<script type="text/javascript">
+    const form = document.getElementById('sign-up-form');
+    if (form.attachEvent) {
+        form.attachEvent('submit', submitSignUp);
+    } else {
+        form.addEventListener('submit', submitSignUp);
+    }
+
+    function submitSignUp(event) {
+        event.preventDefault();
+        const data = {
+            title: 'Rafflebox Signup',
+            organization: document.getElementById("organization").value,
+            position: document.getElementById("position").value,
+            name: document.getElementById("name").value,
+            phone: document.getElementById("phone").value,
+            email: document.getElementById("email").value,
+            province: document.getElementById("province").value
+        };
+
+        console.log(data);
+
+        fetch('/signup', {
+            method: 'post',
+            body: JSON.stringify(data)
+        }).then(function(response) {
+            console.log("success");
+            var err = document.getElementsByClassName("container-form-fields");
+            err[0].classList.remove("active");
+            var err = document.getElementsByClassName("container-form-success");
+            err[0].classList.add("active");
+        }).catch(function() {
+            console.log("error");
+            var err = document.getElementsByClassName("container-form-fields");
+            err[0].classList.remove("active");
+            var err = document.getElementsByClassName("container-form-error");
+            err[0].classList.add("active");
+        });
+    }
+</script>
+
