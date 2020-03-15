@@ -2,6 +2,7 @@
 layout: default
 title: Products
 permalink: /products.html
+section: product
 ---
 
 
@@ -17,6 +18,7 @@ ctaText="Get started"
 
 {%
 include benefits.html
+id="pricing"
 prehead="Cost effective"
 headline="Pricing"
 subhead="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "

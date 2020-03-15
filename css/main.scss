@@ -119,6 +119,7 @@ section {
   }
 }
 
+
 .primary, .secondary {
   border-radius: 35px;
   display: inline-block;
@@ -266,6 +267,44 @@ p + .secondary {
 
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.wrapper-raffles-link {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 22;
+}
+
+.rotate-raffles-link {
+  /*transform: rotate(-90deg);
+  transform-origin: 100% 100%;*/
+}
+
+.raffles-link {
+  background: $blue;
+  border-radius: 0;
+  box-shadow: 0 0 7px rgba(0,0,0,0.35)!important;
+  min-width: 0;
+  padding: 7px;
+}
+
+.raffles-link:before {
+  background-image: url(../images/icon-tickets-big.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: ' ';
+  display: block;
+  height: 42px;
+  margin: 0 auto;
+  width: 42px;
+}
+
+body.raffles {
+  .raffles-link {
+    display: none;
   }
 }
 

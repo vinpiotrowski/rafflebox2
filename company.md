@@ -2,6 +2,7 @@
 layout: default
 title: Our Company
 permalink: /company.html
+section: about
 ---
 
 
