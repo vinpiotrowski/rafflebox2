@@ -1,26 +1,40 @@
 .container-hero {
-  background: $blue;
+  background: $green;
   display: block;
+  overflow: hidden;
   position: relative;
   text-align: center;
   width: 100%;
 
+  &.blue {
+    background: $blue;
+  }
+
   @media(min-width: 768px) {
-    height: 560px;
     text-align: left;
 
-    &:before {
-      bottom: 0;
-      content: "";
-      background-image: linear-gradient(to right, $blue, $blue 70px, transparent 700px, transparent 1085px, $blue 1260px);
-      background-size: 1267px 100%;
-      background-position: 50% 100%;
-      background-repeat: no-repeat;
-      left: 0;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 5;
+    height: 400px;
+
+    &.homepage {
+      height: 560px;
+
+      &:before {
+        bottom: 0;
+        content: "";
+        background-image: linear-gradient(to right, $green, $green 70px, transparent 700px, transparent 1085px, $green 1260px);
+        background-size: 1267px 100%;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 5;
+      }
+
+      &.blue:before {
+        background-image: linear-gradient(to right, $blue, $blue 70px, transparent 700px, transparent 1085px, $blue 1260px);
+      }
     }
   }
 
@@ -34,7 +48,7 @@
     }
 
     @media(min-width: 768px) {
-      height: 560px;
+      height: 400px;
       position: absolute;
       width: 100%;
       img {
@@ -48,6 +62,28 @@
       }
     }
   }
+
+  &.homepage {
+    @media(min-width: 768px) {
+      .wrapper-img {
+        height: 560px;
+      }
+    }
+  }
+
+  &:not(.homepage) .wrapper-img:after {
+    background: $paler-green;
+    border-radius: 50%;
+    bottom: -14vw;
+    content: '';
+    height: 28vw;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-100%);
+    width: 28vw;
+    z-index: 1;
+  }
+
 
   h3 {
     font-weight: 100;
@@ -69,7 +105,7 @@
     > * {
       color: $white;
       margin: 21px 0;
-      text-shadow: 0 0 21px #2fbbd9;
+      text-shadow: 0 0 21px $green;
     }
 
     .container-icon-group img {
@@ -90,7 +126,7 @@
 
   .gradient {
     @media(min-width: 768px) {
-      background-image: linear-gradient(120deg, $blue 7%, transparent 49%, transparent 84%, $blue);
+      background-image: linear-gradient(120deg, $green 7%, transparent 49%, transparent 84%, $green);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -99,9 +135,10 @@
     }
   }
 
+
   .decoration {
     @include dots;
-    background-image: radial-gradient(circle at 3.5px 3.5px, $blue 3.5px, transparent 0);
+    background-image: radial-gradient(circle at 3.5px 3.5px, $paler-green 3.5px, transparent 0);
     bottom: 0;
     display: none;
     height: 210px;
@@ -115,4 +152,23 @@
       display: block;
     }
   }
+
+  &.blue {
+    .container-headline {
+      > * {
+        text-shadow: 0 0 21px $blue;
+      }
+    }
+
+    .gradient {
+      @media(min-width: 768px) {
+        background-image: linear-gradient(120deg, $blue 7%, transparent 49%, transparent 84%, $blue);
+      }
+    }
+
+    .decoration {
+      background-image: radial-gradient(circle at 3.5px 3.5px, $blue 3.5px, transparent 0);
+    }
+  }
+
 }

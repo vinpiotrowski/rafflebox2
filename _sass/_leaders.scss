@@ -1,0 +1,48 @@
+.container-leader-description {
+
+  clear: both;
+
+  &:nth-child(odd) {
+    background: $off-white;
+  }
+
+  > * {
+    padding: 70px 35px;
+    text-align: center;
+
+    @media(min-width: 768px) {
+      padding: 105px 280px 105px 140px;
+      text-align: left;
+    }
+  }
+
+
+  img {
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+
+    @media(min-width: 998px) {
+      float: left;
+      height: 196px;
+      margin: 0 70px 70px 0;
+      width: 196px;
+    }
+  }
+
+  .decoration {
+    @include dots;
+    background-image: radial-gradient(circle at 3.5px 3.5px, $paler-blue 3.5px, transparent 0);
+    bottom: -140px;
+    display: none;
+    height: 175px;
+    right: 105px;
+    position: absolute;
+    width: 140px;
+
+    @media(min-width: 768px) {
+      display: block;
+    }
+  }
+
+}

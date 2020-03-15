@@ -6,10 +6,13 @@ layout: default
 ---
 
 {% 
-include hero-homepage.html 
+include hero-homepage.html
+colour="blue"
 image-url="./images/hero-test-02.jpg" 
 headline="The easy way to fundraise" 
 subhead="Our intuitive platform enables your organization to create and manage online raffles and 50/50 fundraisers" 
+ctaLink="./sign-up.html"
+ctaText="Get Started"
 %}
 
 

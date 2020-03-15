@@ -1,16 +1,16 @@
-<section class="container-hero">
+<section class="container-hero {{ include.colour }}">
 
     <div class="wrapper-img">
         <img src="{{ include.image-url }}" alt="" />
     </div>
 
-    <div class="gradient"></div>
-
     <div class="inner-page">
         <div class="container-headline">
             <h1>{{ include.headline }}</h1>
             <h3>{{ include.subhead }}</h3>
-            <a class="secondary reverse" href="{{ include.ctaLink }}"><span>{{ include.ctaText }}</span></a>
+            {% if include.ctaLink %}
+                <a class="secondary reverse" href="{{ include.ctaLink }}"><span>{{ include.ctaText }}</span></a>
+            {% endif %}
         </div>
     </div>
 

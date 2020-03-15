@@ -7,10 +7,10 @@ permalink: /products.html
 
 {% 
 include hero.html 
-image-url="./images/hero-test-04.jpg" 
+image-url="./images/hero-products.jpg" 
 headline="Easy. Flexible. Effective." 
 subhead="Products to accelerate fundraising and grow your cause from any device or platform." 
-ctaLink="https://rafflebox.ca/signup"
+ctaLink="./sign-up.html"
 ctaText="Get started"
 %}
 
