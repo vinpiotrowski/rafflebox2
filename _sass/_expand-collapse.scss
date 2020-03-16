@@ -1,0 +1,66 @@
+.container-faqs {
+
+  padding: 0;
+
+  h2 {
+    color: $green;
+    text-transform: uppercase;
+  }
+
+  @media(min-width: 768px) {
+    > * {
+      padding: 49px 140px 49px 140px
+    }
+  }
+}
+
+.container-expand {
+
+  padding-right: 35px;
+  position: relative;
+
+  a {
+    display: inline-block;
+    color: $black;
+    font-size: $medium-plus;
+    font-weight: 700;
+    padding: 21px 0;
+    text-decoration: none;
+
+    + div {
+      max-height: 0;
+      overflow: hidden;
+      transition: all ease-in-out 140ms;
+    }
+
+    &.active + div {
+      max-height: 700px;
+      padding: 0 0 28px;
+    }
+
+    &:after {
+      background-image: url(../images/plus.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: ' ';
+      display: inline-block;
+      height: 21px;
+      margin-right: 7px;
+      position: absolute;
+      right: 0;
+      top: 21px;
+      width: 21px;
+    }
+
+    &.active:after {
+      background-image: url(../images/minue.png);
+    }
+  }
+
+  + .container-expand {
+    border-top: solid 2px #eeeeee;
+  }
+
+
+}

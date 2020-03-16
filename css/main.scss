@@ -272,37 +272,29 @@ p + .secondary {
 
 .wrapper-raffles-link {
   position: fixed;
+  top: 21%;
   right: 0;
-  bottom: 0;
   z-index: 22;
 }
 
 .rotate-raffles-link {
-  /*transform: rotate(-90deg);
-  transform-origin: 100% 100%;*/
+  transform: rotate(-90deg);
+  transform-origin: 100% 100%;
 }
 
 .raffles-link {
   background: $blue;
   border-radius: 0;
-  box-shadow: 0 0 7px rgba(0,0,0,0.35)!important;
+  box-shadow: none!important;
   min-width: 0;
-  padding: 7px;
+  position: relative;
+
+  &:after {
+    color: $white!important;
+  }
 }
 
-.raffles-link:before {
-  background-image: url(../images/icon-tickets-big.png);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  content: ' ';
-  display: block;
-  height: 42px;
-  margin: 0 auto;
-  width: 42px;
-}
-
-body.raffles {
+body.raffles, body.support {
   .raffles-link {
     display: none;
   }
@@ -322,6 +314,7 @@ body.raffles {
 @import "benefits";
 @import "steps";
 @import "products";
+@import "expand-collapse";
 @import "leaders";
 @import "slider";
 @import "logo-farm";

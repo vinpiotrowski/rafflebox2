@@ -248,6 +248,19 @@
     }
 
 
+    // -> Expand & collapse / accordions
+
+    var expands = document.querySelectorAll(".container-expand a");
+    if(expands) {
+        for( var i=0; i<expands.length; i++) {
+            expands[i].addEventListener("click", function(e) {
+              e.preventDefault();
+              this.classList.toggle("active");
+            })
+        }
+    }
+
+
 </script>
 
 
