@@ -9,9 +9,9 @@
         <div class="wrapper-slider wrapper-raffles">
             <div class="slides raffles" data-offset="0">
                 {% assign idx = 0 %}
-                {% for raffle in site.data.raffles %}
+                {% for raffle in site.data.raffles.data %}
                     {% if raffle.show and raffle.active and raffle.featured %}
-                        <div class="slide raffle">
+                        <div class="slide raffle" id="{{ raffle.id }}">
                             <img src="{{ raffle.logo }}" alt="" />
                             <div>
                                 <p class="description">

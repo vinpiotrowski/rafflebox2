@@ -212,6 +212,20 @@
     }
 
 
+    // -> Raffle update pricing
+
+    fetch("https://api.rafflebox-test.ca/raffle-service/raffles", {
+        method: 'get',
+        mode: 'cors'
+    }).then(function(response) {
+        console.log("success");
+    }).catch(function() {
+        console.log("error");
+    });
+
+
+
+
     // -> Raffle search
 
     var criteria = document.getElementById("raffle-search-criteria");

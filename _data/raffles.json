@@ -1,1574 +1,1780 @@
-[{
-  "id": 176,
-  "name": "Alberta SPCA Lottery 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-02-05T12:29:00.000Z",
-  "shortLink": "spca",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-29+at+8.27.03+AM.png"
-}, {
-  "id": 175,
-  "name": "Ronald McDonald House of Calgary 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-01-30T21:42:00.000Z",
-  "shortLink": "ronaldmcdonaldhouse",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-09+at+9.53.43+PM.png"
-}, {
-  "id": 174,
-  "name": "PC Party of Nova Scotia Provincial-Wide 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-02-09T20:33:00.000Z",
-  "shortLink": "pcpartyns",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-09+at+9.00.52+AM.png"
-}, {
-  "id": 173,
-  "name": "Spruce Grove Saints January Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-01-31T17:58:00.000Z",
-  "shortLink": "saints",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+5.54.45+PM.png"
-}, {
-  "id": 172,
-  "name": "Junior Dinos Women's 14U-REX Volleyball Team 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-02-04T17:53:00.000Z",
-  "shortLink": "dinos14urex",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+5.46.43+PM.png"
-}, {
-  "id": 171,
-  "name": "Calgary Foothills Soccer Club January 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "featured": true,
-  "drawDate": "2020-01-31T16:27:00.000Z",
-  "shortLink": "cfsc",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+4.31.43+PM.png"
-}, {
-  "id": 170,
-  "name": "Camrose Kodiaks January Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "featured": true,
-  "drawDate": "2020-01-26T20:58:00.000Z",
-  "shortLink": "kodiaks",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-22+at+10.16.56+PM.png"
-}, {
-  "id": 169,
-  "name": "LLoydminster Bobcats January 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "featured": true,
-  "drawDate": "2020-01-31T17:45:00.000Z",
-  "shortLink": "bobcats",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-30+at+5.33.01+PM.png"
-}, {
-  "id": 168,
-  "name": "Acadia Minor Hockey Association January 50/50 Fundraiser!",
-  "organizationId": 9,
-  "show": true,
-  "active": true,
-  "featured": true,
-  "drawDate": "2020-01-28T17:23:00.000Z",
-  "shortLink": "amha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+6.32.32+PM.png"
-}, {
-  "id": 167,
-  "name": "University of Calgary Dinos Women's Soccer January 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "featured": true,
-  "drawDate": "2020-02-24T15:54:00.000Z",
-  "shortLink": "dinosws",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-30+at+3.45.23+PM.png"
-}, {
-  "id": 166,
-  "name": "Olds Lacrosse Association January Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-01-30T17:39:00.000Z",
-  "shortLink": "stingers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-27+at+5.58.01+PM.png"
-}, {
-  "id": 165,
-  "name": "Calgary Canucks January Progressive 50/50 Jackpot! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "featured": true,
-  "drawDate": "2020-02-06T16:36:00.000Z",
-  "shortLink": "calgarycanucks",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/RaffleBox+1045x576+(1).png"
-}, {
-  "id": 164,
-  "name": "AMHA Red 1 Novice Flyers Raffle Fundraiser for CALGARY FLAMES TICKETS!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-16T07:00:00.000Z",
-  "shortLink": "red1",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-23+at+7.59.09+PM.png"
-}, {
-  "id": 163,
-  "name": "Strathmore Wheatland Kings Jr Hockey Winter 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-02-03T14:02:00.000Z",
-  "shortLink": "wheatlandkings",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-17+at+1.50.54+PM.png"
-}, {
-  "id": 162,
-  "name": "Saint Mary's University Winter 50/50 Fundraiser in Support of United Way Halifax!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-02-01T17:50:00.000Z",
-  "shortLink": "smu",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Fundraising+Campaign_United+Way_2019.jpg"
-}, {
-  "id": 161,
-  "name": "A Year of Entertainment Raffle Fundraiser in Support of the Halifax Fringe Festival!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-07T02:00:00.000Z",
-  "shortLink": "fringe",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Fringe+RAFFLE+IMAGE.png"
-}, {
-  "id": 160,
-  "name": "Bonnyville Pontiacs Happy New Year Progressive 50/50 Jackpot! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-12T19:22:00.000Z",
-  "shortLink": "pontiacs",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-10+at+7.27.06+PM.png"
-}, {
-  "id": 159,
-  "name": "Hockey Calgary 2020 Esso Minor Hockey Week 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-18T11:33:00.000Z",
-  "shortLink": "hc",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-10+at+6.36.53+PM.png"
-}, {
-  "id": 158,
-  "name": "Okotoks Outlaws Baseball Club 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-01-31T18:14:00.000Z",
-  "shortLink": "outlaws",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-07+at+6.10.05+PM.png"
-}, {
-  "id": 157,
-  "name": "Cochrane Minor Hockey Association December Online 50/50 Draw!",
-  "organizationId": 5,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-31T07:00:00.000Z",
-  "shortLink": "rockies",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-06+at+5.56.00+PM.png"
-}, {
-  "id": 156,
-  "name": "SWAT Raptors (SW407) Progressive 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-06T07:00:00.000Z",
-  "shortLink": "swatraptors",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-06+at+4.30.43+PM.png"
-}, {
-  "id": 155,
-  "name": "Calgary Mavericks Midget 3 December 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-24T07:00:00.000Z",
-  "shortLink": "mavericksmidget3",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-05+at+4.33.18+PM.png"
-}, {
-  "id": 154,
-  "name": "Sport Nova Scotia January 50/50 Fundraiser!",
-  "organizationId": 8,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-01-31T22:22:00.000Z",
-  "shortLink": "sportnovascotia",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-01+at+10.47.23+PM.png"
-}, {
-  "id": 153,
-  "name": "Acadia Minor Hockey Association December 50/50 Fundraiser!",
-  "organizationId": 9,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-30T04:00:00.000Z",
-  "shortLink": "amhadecember2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-27+at+8.38.41+PM.png"
-}, {
-  "id": 152,
-  "name": "Altadore Gymnastic Club Holiday Raffle Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-11T07:00:00.000Z",
-  "shortLink": "altadoregymnastics",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-25+at+6.49.40+PM.png"
-}, {
-  "id": 151,
-  "name": "Knights Hockey Club 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-01-31T17:59:00.000Z",
-  "shortLink": "knightshc",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-25+at+5.51.31+PM.png"
-}, {
-  "id": 150,
-  "name": "Valley Wildcats December 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-12-30T20:09:00.000Z",
-  "shortLink": "wildcats",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-24+at+8.04.59+PM.png"
-}, {
-  "id": 149,
-  "name": "Camrose Kodiaks December Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-27T07:00:00.000Z",
-  "shortLink": "kodiaksdec2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-24+at+6.57.23+PM.png"
-}, {
-  "id": 148,
-  "name": "Calgary Gymnastics Centre 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-12-15T21:04:00.000Z",
-  "shortLink": "cgc",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-21+at+9.34.56+PM.png"
-}, {
-  "id": 147,
-  "name": "The Coast 89.7 FM 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-27T03:00:00.000Z",
-  "shortLink": "coastal",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-05+at+8.29.36+PM.png"
-}, {
-  "id": 146,
-  "name": "University of Calgary Athletics 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-12-15T21:10:00.000Z",
-  "shortLink": "dinos",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-20+at+9.07.22+PM.png"
-}, {
-  "id": 145,
-  "name": "Calgary United Soccer Association Winter 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-12-15T18:42:00.000Z",
-  "shortLink": "cusa",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-20+at+6.35.17+PM.png"
-}, {
-  "id": 144,
-  "name": "Redcliff Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-12-15T17:12:00.000Z",
-  "shortLink": "redcliff",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-19+at+5.20.32+PM.png"
-}, {
-  "id": 143,
-  "name": "Calgary Foothills Soccer Club December 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-28T07:00:00.000Z",
-  "shortLink": "cfscdecember2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-19+at+4.44.36+PM.png"
-}, {
-  "id": 142,
-  "name": "Bow Valley Minor Hockey 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-01-31T17:49:00.000Z",
-  "shortLink": "bv",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-17+at+5.42.45+PM.png"
-}, {
-  "id": 141,
-  "name": "Calgary Southwest United Premiers '06 Girls 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "hero": true,
-  "drawDate": "2019-12-21T07:00:00.000Z",
-  "shortLink": "cswupremiers06",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+2.41.37+PM.png"
-}, {
-  "id": 140,
-  "name": "Springbank Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-01-31T18:11:00.000Z",
-  "shortLink": "springbankmha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-13+at+6.01.41+PM.png"
-}, {
-  "id": 139,
-  "name": "ENTER TO WIN A iPad! BUY A FREE TICKET HERE WITH 'PLAY' MONEY!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-13T03:30:00.000Z",
-  "shortLink": "rafflebox",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-11+at+9.50.32+AM.png"
-}, {
-  "id": 138,
-  "name": "Supreme Hoops Canada 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-16T07:00:00.000Z",
-  "shortLink": "supremehoops",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-13+at+6.45.59+PM.png"
-}, {
-  "id": 137,
-  "name": "101.5 The Hawk 50/50 Fundraiser in Support of Ports Hawkesbury Food Bank!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-12-15T22:42:00.000Z",
-  "shortLink": "thehawk",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-08+at+10.41.06+PM.png"
-}, {
-  "id": 136,
-  "name": "Red Nose Talent Show Raffle Fundraiser in Support of the Canadian Mental Health Association PEI!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-17T00:28:00.000Z",
-  "shortLink": "cmhapei",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Raffle+Bannernew.png"
-}, {
-  "id": 135,
-  "name": "Acadia Minor Hockey Association November 50/50 Fundraiser!",
-  "organizationId": 9,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-27T04:00:00.000Z",
-  "shortLink": "amhanovember2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-06+at+5.33.30+PM.png"
-}, {
-  "id": 134,
-  "name": "Okotoks Oilers Novice B Big Rigs Fall 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-08T07:00:00.000Z",
-  "shortLink": "okotoksnoviceb",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-03+at+6.00.41+PM.png"
-}, {
-  "id": 133,
-  "name": "Soccer Nova Scotia Winter 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-03-01T08:35:00.000Z",
-  "shortLink": "soccerns",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-03+at+8.56.11+AM.png"
-}, {
-  "id": 132,
-  "name": "Blackfoot Chiefs Midget 1 November 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "blackfootmidget1",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-01+at+8.30.14+AM.png"
-}, {
-  "id": 131,
-  "name": "Okotoks Oilers Atom 2 Fall 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-04T07:00:00.000Z",
-  "shortLink": "okotoksatom2",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-30+at+3.44.25+PM.png"
-}, {
-  "id": 130,
-  "name": "Mount Royal University Fall 50/50 Fundraiser!",
-  "organizationId": 7,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T15:06:00.000Z",
-  "shortLink": "mru",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-30+at+3.02.03+PM.png"
-}, {
-  "id": 129,
-  "name": "Truro Centurions Swim Club 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T11:54:00.000Z",
-  "shortLink": "centurions",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-29+at+8.31.55+AM.png"
-}, {
-  "id": 128,
-  "name": "Wrestling Nova Scotia November 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-11-30T11:29:00.000Z",
-  "shortLink": "nswrestling",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-28+at+11.24.26+AM.png"
-}, {
-  "id": 127,
-  "name": "Crowfoot Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 6,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-01-19T09:50:00.000Z",
-  "shortLink": "crowfootmha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-28+at+11.06.27+AM.png"
-}, {
-  "id": 126,
-  "name": "Calgary Crusaders Peewee November 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "crusaderspeewee",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-01+at+4.23.35+PM.png"
-}, {
-  "id": 125,
-  "name": "Calgary Buffalo Midget AA November 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "buffalomidgetaa",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-01+at+5.23.50+PM.png"
-}, {
-  "id": 124,
-  "name": "105.9 Seaside-FM 50/50 Jackpot!",
-  "organizationId": 2,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-07T03:59:00.000Z",
-  "shortLink": "seasidefm",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+7.55.42+AM.png"
-}, {
-  "id": 123,
-  "name": "Okotoks Oilers Peewee 3 Fall 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-25T07:00:00.000Z",
-  "shortLink": "okotokspeewee3",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+1.01.33+PM.png"
-}, {
-  "id": 122,
-  "name": "Camrose Kodiaks November Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-19T07:00:00.000Z",
-  "shortLink": "kodiaksnov2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-22+at+10.16.56+PM.png"
-}, {
-  "id": 121,
-  "name": "The Sutter Fund Female Hockey Fundraiser & Gala Online 50/50 Draw!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-26T07:00:00.000Z",
-  "shortLink": "sutterfund",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-03+at+7.09.36+PM.png"
-}, {
-  "id": 120,
-  "name": "Strathcona Minor Hockey Association January 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-01-30T08:09:00.000Z",
-  "shortLink": "strathconamha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-27+at+5.19.53+PM.png"
-}, {
-  "id": 119,
-  "name": "Okotoks Oilers Novice Girls 50/50 Fall Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-16T07:00:00.000Z",
-  "shortLink": "okotoksnovicegirls",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-19+at+6.31.20+PM.png"
-}, {
-  "id": 118,
-  "name": "Okotoks Oilers Atom Storm Fall 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-11-18T07:01:00.000Z",
-  "shortLink": "okotoksatomstorm",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-20+at+11.09.19+AM.png"
-}, {
-  "id": 117,
-  "name": "Lethbridge Midget Tier 1 November 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-11-30T21:01:00.000Z",
-  "shortLink": "lethbridge",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-04+at+10.14.46+AM.png"
-}, {
-  "id": 116,
-  "name": "St. Albert Raiders Peewee A 50/50 Fundraiser!",
-  "organizationId": 3,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-10-25T20:11:00.000Z",
-  "shortLink": "samhapeeweea",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-11+at+8.08.07+PM.png"
-}, {
-  "id": 115,
-  "name": "St. Alberta Minor Hockey Association November 50/50 Fundraiser!",
-  "organizationId": 3,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T19:22:00.000Z",
-  "shortLink": "samha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-11+at+6.16.11+PM.png"
-}, {
-  "id": 114,
-  "name": "St. Alberta Minor Hockey Association November 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T19:19:00.000Z",
-  "shortLink": "error",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-11+at+6.16.11+PM.png"
-}, {
-  "id": 113,
-  "name": "**SOLD OUT!** Okotoks Oilers Peewee AA Blacks October 50/50 Fundraiser #2!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-10-31T18:16:00.000Z",
-  "shortLink": "peeweeaablack2",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-09+at+6.05.37+PM.png"
-}, {
-  "id": 112,
-  "name": "Tasa Minor Hockey Association October 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-10-31T14:33:00.000Z",
-  "shortLink": "tasamha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-08+at+2.25.47+PM.png"
-}, {
-  "id": 111,
-  "name": "Hockey Calgary October Progressive 50/50 Jackpot Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-10-31T09:15:00.000Z",
-  "shortLink": "hc2",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-05+at+9.50.21+AM.png"
-}, {
-  "id": 110,
-  "name": "Chebucto Connections Fall 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T20:22:00.000Z",
-  "shortLink": "chebucto",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-04+at+8.17.48+PM.png"
-}, {
-  "id": 109,
-  "name": "Yalenka Ukrainian Dancers Society 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T21:24:00.000Z",
-  "shortLink": "yalenka",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+9.22.21+PM.png"
-}, {
-  "id": 108,
-  "name": "High River Junior B Flyers 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-10-31T21:02:00.000Z",
-  "shortLink": "highriverflyers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+9.00.48+PM.png"
-}, {
-  "id": 107,
-  "name": "Okotoks Oilers Atom A Ice Kings Fall 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "okotoksatoma",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-16+at+5.26.54+PM.png"
-}, {
-  "id": 106,
-  "name": "Foothills Elite Hockey PeeWee AAA October 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-10-31T20:29:00.000Z",
-  "shortLink": "foothillsaaa",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+8.21.56+PM.png"
-}, {
-  "id": 105,
-  "name": "Peace Country Female Athletic Club October 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-10-31T19:26:00.000Z",
-  "shortLink": "pcfac",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+7.23.41+PM.png"
-}, {
-  "id": 104,
-  "name": "Saint Mary's University Fall 50/50 Fundraiser in Support of United Way Halifax!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-13T04:00:00.000Z",
-  "shortLink": "smufall",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Fundraising+Campaign_United+Way_2019.jpg"
-}, {
-  "id": 103,
-  "name": "2020 East Coast IceJam Progressive 50/50 Jackpot! ",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2020-01-12T08:08:00.000Z",
-  "shortLink": "icejam",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-30+at+8.03.55+AM.png"
-}, {
-  "id": 102,
-  "name": "Rafflebox 50/50 Fundraiser in Support of Calgary KidSport! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-11T07:00:00.000Z",
-  "shortLink": "kidsport",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+8.30.01+PM.png"
-}, {
-  "id": 101,
-  "name": "**SOLD OUT!** Okotoks Oilers Peewee AA Black Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": true,
-  "active": false,
-  "drawDate": "2019-10-31T11:59:00.000Z",
-  "shortLink": "peeweeaablack",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-26+at+6.09.04+PM.png"
-}, {
-  "id": 100,
-  "name": "CAR RAFFLE in Support of Our Lady of Lebanon Maronite Catholic Church!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-11-30T21:14:00.000Z",
-  "shortLink": "maronitecc",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-27+at+2.20.20+PM.png"
-}, {
-  "id": 99,
-  "name": "Okotoks Oilers Peewee AA Blacks October 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-10-31T18:08:00.000Z",
-  "shortLink": "okotokspeeweeaablacks",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-26+at+6.09.04+PM.png"
-}, {
-  "id": 98,
-  "name": "**SOLD OUT!** Okotoks Oilers Peewee 1 Progressive 50/50 Jackpot Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": false,
-  "drawDate": "2019-10-31T17:33:00.000Z",
-  "shortLink": "okotokspeewee1",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-04+at+3.45.36+PM.png"
-}, {
-  "id": 97,
-  "name": "NSCC 50/50 Fall Fundraiser in Support of United Way!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-03T22:00:00.000Z",
-  "shortLink": "nscc",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-25+at+3.18.16+PM.png"
-}, {
-  "id": 96,
-  "name": "Acadia Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 9,
-  "show": true,
-  "active": false,
-  "drawDate": "2019-11-06T04:00:00.000Z",
-  "shortLink": "amhaoctober2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+6.32.32+PM.png"
-}, {
-  "id": 95,
-  "name": "Dartmouth Whalers Minor Hockey Association October 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-10-31T20:27:00.000Z",
-  "shortLink": "dwmha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-23+at+8.22.49+PM.png"
-}, {
-  "id": 94,
-  "name": "Alberta Ballet School Annual 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-05-01T16:46:00.000Z",
-  "shortLink": "ballet",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-21+at+5.08.20+PM.png"
-}, {
-  "id": 93,
-  "name": "One Yellow Rabbit Performance Theatre 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-03-01T16:57:00.000Z",
-  "shortLink": "oneyellowrabbit",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-19+at+4.55.52+PM.png"
-}, {
-  "id": 92,
-  "name": "Alberta Hands & Voices Fall 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-02T23:59:00.000Z",
-  "shortLink": "handsandvoices",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-19+at+3.54.24+PM.png"
-}, {
-  "id": 91,
-  "name": "Okotoks Oilers December 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-27T07:00:00.000Z",
-  "shortLink": "oilersajhl",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-08+at+11.10.59+PM.png"
-}, {
-  "id": 90,
-  "name": "Strathmore Wheatland Kings Jr Hockey 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-10T07:00:00.000Z",
-  "shortLink": "wheatlandkingsfall",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-18+at+4.18.20+PM.png"
-}, {
-  "id": 89,
-  "name": "YOUR SCHOOL Fall Frenzy Raffle Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T20:20:00.000Z",
-  "shortLink": "yourschool",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-12+at+8.13.52+PM.png"
-}, {
-  "id": 88,
-  "name": "Bacchus October 50/50 Fundraiser In Support of The Mustard Seed!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-01T05:59:00.000Z",
-  "shortLink": "bacchus",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-26+at+5.00.01+PM.png"
-}, {
-  "id": 87,
-  "name": "GoodLife SPiN 4 KiDS 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-09-23T11:55:00.000Z",
-  "shortLink": "goodlife",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-09+at+11.52.37+AM.png"
-}, {
-  "id": 86,
-  "name": "Evangeline Minor Hockey Association October Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-10-31T18:44:00.000Z",
-  "shortLink": "evangeline",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-04+at+6.34.53+PM.png"
-}, {
-  "id": 85,
-  "name": "Grande Prairie Storm Progressive 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2020-02-14T23:59:00.000Z",
-  "shortLink": "storm",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-04+at+1.39.34+PM.png"
-}, {
-  "id": 84,
-  "name": "Okotoks Minor Hockey Association November 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-30T16:18:00.000Z",
-  "shortLink": "oilers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-07+at+9.18.27+AM.png"
-}, {
-  "id": 83,
-  "name": "Sydney Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-03T20:51:00.000Z",
-  "shortLink": "sydney",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+8.49.52+PM.png"
-}, {
-  "id": 82,
-  "name": "New Waterford Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-03T20:27:00.000Z",
-  "shortLink": "newwaterford",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+8.25.17+PM.png"
-}, {
-  "id": 81,
-  "name": "Glace Bay Minor Hockey Association 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-03T16:52:00.000Z",
-  "shortLink": "glacebay",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+4.50.17+PM.png"
-}, {
-  "id": 80,
-  "name": "Cape Breton County Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-03T16:25:00.000Z",
-  "shortLink": "cbcmha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+4.23.34+PM.png"
-}, {
-  "id": 79,
-  "name": "Your Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-12T14:32:00.000Z",
-  "shortLink": "example",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+2.22.58+PM.png"
-}, {
-  "id": 78,
-  "name": "Western Valley Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T18:49:00.000Z",
-  "shortLink": "spartans",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+6.48.18+PM.png"
-}, {
-  "id": 77,
-  "name": "Clare-Digby Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T18:38:00.000Z",
-  "shortLink": "cdmha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+6.35.45+PM.png"
-}, {
-  "id": 76,
-  "name": "South Shore Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T18:18:00.000Z",
-  "shortLink": "sharks",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+6.17.15+PM.png"
-}, {
-  "id": 75,
-  "name": "Shelbourne County Minor Hockey Association 5050 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T17:47:00.000Z",
-  "shortLink": "shelbourne",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.45.32+PM.png"
-}, {
-  "id": 74,
-  "name": "Queens County Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T17:37:00.000Z",
-  "shortLink": "cougars",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.36.08+PM.png"
-}, {
-  "id": 73,
-  "name": "Straight Richmond Minor Hockey 5050 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T17:20:00.000Z",
-  "shortLink": "pirates",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.19.03+PM.png"
-}, {
-  "id": 72,
-  "name": "Cape Breton West Minor Hockey Association August 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T17:05:00.000Z",
-  "shortLink": "islanders",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.02.50+PM.png"
-}, {
-  "id": 71,
-  "name": "West Hants Minor Hockey Association August 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-01T16:34:00.000Z",
-  "shortLink": "warriors",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+4.32.25+PM.png"
-}, {
-  "id": 70,
-  "name": "Acadia Minor Hockey Association August 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-08T15:48:00.000Z",
-  "shortLink": "acadia",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+3.43.55+PM.png"
-}, {
-  "id": 68,
-  "name": "Alberta Cancer Foundation August Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-08-27T20:05:00.000Z",
-  "shortLink": "acf",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-13+at+8.07.27+PM.png"
-}, {
-  "id": 67,
-  "name": "Shaw Charity Classic Online Raffle Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-02T18:10:00.000Z",
-  "shortLink": "shaw",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-12+at+6.07.53+PM.png"
-}, {
-  "id": 66,
-  "name": "Pictou County Minor Hockey Association",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T20:05:00.000Z",
-  "shortLink": "pictou",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.56.26+PM.png"
-}, {
-  "id": 65,
-  "name": "Canso & Area Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T19:58:00.000Z",
-  "shortLink": "canso",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.56.10+PM.png"
-}, {
-  "id": 64,
-  "name": "Tatamagouche & Area Minor Hockey Association",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T19:34:00.000Z",
-  "shortLink": "tatamagouche",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.32.22+PM.png"
-}, {
-  "id": 63,
-  "name": "Chester Minor Hockey Association 50/50 Fundraiser! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-08-26T19:19:00.000Z",
-  "shortLink": "chester",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.18.21+PM.png"
-}, {
-  "id": 62,
-  "name": "West Colchester Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T19:11:00.000Z",
-  "shortLink": "westcolchester",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.09.16+PM.png"
-}, {
-  "id": 61,
-  "name": "South Colchester Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T18:52:00.000Z",
-  "shortLink": "southcolchester",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+6.51.26+PM.png"
-}, {
-  "id": 60,
-  "name": "Rugby Nova Scotia Online Fall 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-11-30T15:46:00.000Z",
-  "shortLink": "rugbyns",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-08+at+3.44.01+PM.png"
-}, {
-  "id": 59,
-  "name": "BEAM Foundation Online Fall Raffle!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "beam",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/beam_banner_gratitude.png"
-}, {
-  "id": 58,
-  "name": "Cumberland County Minor Hockey Association September Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T17:36:00.000Z",
-  "shortLink": "ramblers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-07+at+4.52.26+PM.png"
-}, {
-  "id": 57,
-  "name": "Truro Area Minor Hockey September 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T08:51:00.000Z",
-  "shortLink": "tamha",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-07+at+8.16.49+AM.png"
-}, {
-  "id": 56,
-  "name": "Nova Scotia Government United Way September 50/50 Fundraising Campaign!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-30T14:24:00.000Z",
-  "shortLink": "nsunitedway",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/UNITED+NS+POSTER.png"
-}, {
-  "id": 55,
-  "name": "Canadian Junior Football League Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-08-05T21:13:00.000Z",
-  "shortLink": "cjhl",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/CJFL+POSTER.png"
-}, {
-  "id": 54,
-  "name": "Evan Skowron Memorial Golf Tournament 50/50 Fundraiser in Support of the Centre for Suicide Prevention",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-06T20:35:00.000Z",
-  "shortLink": "evanskowron",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/golf+poster.png"
-}, {
-  "id": 53,
-  "name": "Rotary Club of Calgary 50/50 Fundraiser in Support of United Way! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-10-31T18:21:00.000Z",
-  "shortLink": "rotary",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Rotary+Poster.png"
-}, {
-  "id": 52,
-  "name": "Raising Spirits 50/50 Fundraiser in Support of the Alberta Children's Hospital! ",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-31T20:42:00.000Z",
-  "shortLink": "spirits",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Raising+Poster.png"
-}, {
-  "id": 51,
-  "name": "Tasa Minor Hockey Association September 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-11T17:00:00.000Z",
-  "shortLink": "tasa",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Tasa+Poster.png"
-}, {
-  "id": 50,
-  "name": "Eastern Shore Minor Hockey Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-22T16:42:00.000Z",
-  "shortLink": "easternshore",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Eastern+Shore+Poster.png"
-}, {
-  "id": 49,
-  "name": "East Hants Minor Hockey Association September 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-22T16:21:00.000Z",
-  "shortLink": "penguins",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/East+Hants+Poster.png"
-}, {
-  "id": 48,
-  "name": "Chebucto Minor Hockey Association September 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-22T15:42:00.000Z",
-  "shortLink": "atlantics",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Atlantics+poster2.png"
-}, {
-  "id": 47,
-  "name": "The Leukemia & Lymphoma Society of Canada Atlantic Region Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-22T14:59:00.000Z",
-  "shortLink": "lls",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/LL+poster.png"
-}, {
-  "id": 46,
-  "name": "Big Brothers Big Sisters of Greater Halifax Online Raffle Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-08-31T18:24:00.000Z",
-  "shortLink": "bbbs",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/BB+poster.png"
-}, {
-  "id": 45,
-  "name": "Summerside Minor Hockey Association Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-14T16:54:00.000Z",
-  "shortLink": "capitals",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Capitals+Poster.png"
-}, {
-  "id": 44,
-  "name": "Charlottetown Minor Hockey Association Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-05T16:05:00.000Z",
-  "shortLink": "abbies",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Abbies+Poster.png"
-}, {
-  "id": 43,
-  "name": "The Foothills Cowboy Association STAMPEDE Raffle!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-07-03T23:00:00.000Z",
-  "shortLink": "fca",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/FCARODEO+POSTER5.png"
-}, {
-  "id": 42,
-  "name": "FEED NOVA SCOTIA Summer Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-07T15:14:00.000Z",
-  "shortLink": "feedns",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/feedNS+Poster.png"
-}, {
-  "id": 41,
-  "name": "Yarmouth County Minor Hockey Association Summer Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-08T09:27:00.000Z",
-  "shortLink": "mariners",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Mariners+Poster2.png"
-}, {
-  "id": 40,
-  "name": "Citadel Community Association July Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-31T17:04:00.000Z",
-  "shortLink": "citadel",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Citadel+Poster.png"
-}, {
-  "id": 39,
-  "name": "Maritime Junior Hockey League Online 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-01T19:04:00.000Z",
-  "shortLink": "mhl",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Maritime+Poster.png"
-}, {
-  "id": 38,
-  "name": "Concorde Group Online Stampede 50/50 Fundraiser in Support of FEEDYYC!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-11-22T09:29:00.000Z",
-  "shortLink": "stampede",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Concorde+Poster2.png"
-}, {
-  "id": 37,
-  "name": "THE BIG SWIM Online 50/50 Fundraiser in support of Brigadoon!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-08-19T03:00:00.000Z",
-  "shortLink": "bigswim",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/The+Big+Swim+Poster3.png"
-}, {
-  "id": 36,
-  "name": "Mcknight Hockey Association August Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-08-30T16:44:00.000Z",
-  "shortLink": "mcknight",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/McKnight+Poster.png"
-}, {
-  "id": 35,
-  "name": "Greta Bar July 50/50 Fundraiser in Support of THE MUSTARD SEED!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-24T20:42:00.000Z",
-  "shortLink": "greta",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Greta+Bar+Poster2.png"
-}, {
-  "id": 34,
-  "name": "Halifax Hawks Minor Hockey Association January 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2020-01-31T08:40:00.000Z",
-  "shortLink": "hawks",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+9.00.25+PM.png"
-}, {
-  "id": 33,
-  "name": "CRAFT Beer Market July Online 50/50 Fundraiser in Support of MitoCanada!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-08-12T18:02:00.000Z",
-  "shortLink": "craft",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/CRAFT+poster4.png"
-}, {
-  "id": 32,
-  "name": "Chestermere Minor Hockey Association November 50/50 Fundraiser!",
-  "organizationId": 4,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "lakers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-31+at+9.22.14+PM.png"
-}, {
-  "id": 31,
-  "name": "Drumheller Dragons Summer Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-10-15T01:59:00.000Z",
-  "shortLink": "summerdragons",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Dragons+summer+poster.png"
-}, {
-  "id": 30,
-  "name": "Dartmouth Whalers Minor Hockey Association Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-04T20:17:00.000Z",
-  "shortLink": "whalers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-23+at+8.22.49+PM.png"
-}, {
-  "id": 29,
-  "name": "Cole Harbour Bel Ayr Minor Hockey Association Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-16T10:34:00.000Z",
-  "shortLink": "wings",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Cole+Harbour+5050+Poster.png"
-}, {
-  "id": 28,
-  "name": "Scleroderma Nova Scotia Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-06-22T20:00:00.000Z",
-  "shortLink": "scleroderma",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Scleroderma+Poster.png"
-}, {
-  "id": 27,
-  "name": "Halifax Minor Baseball Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-15T15:16:00.000Z",
-  "shortLink": "hmb",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Halifax+Minor+Baseball+Poster2.png"
-}, {
-  "id": 26,
-  "name": "Jazz & Chorus Employees Online Raffle Fundraiser in Support of Dartmouth General Hospital! ",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-09-10T18:00:00.000Z",
-  "shortLink": "jazz",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-12+at+4.49.15+PM.png"
-}, {
-  "id": 25,
-  "name": "Cavalry FC Progressive Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-09T21:34:00.000Z",
-  "shortLink": "cavalryfc",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calvary+FC+Poster.png"
-}, {
-  "id": 24,
-  "name": "Halifax Greek Festival Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-06-09T22:00:00.000Z",
-  "shortLink": "greekfest",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Greek+Fest+Poster5.png"
-}, {
-  "id": 23,
-  "name": "Springbank GU13 Minor Soccer Team Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-06-11T06:00:00.000Z",
-  "shortLink": "springbankgu13",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Springbank+GU13+Team+Pic.png"
-}, {
-  "id": 22,
-  "name": "Calgary West U12A Boys Soccer Club 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-07-01T06:00:00.000Z",
-  "shortLink": "westsocceru12ab",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calgary+West+Team+Photo.png"
-}, {
-  "id": 21,
-  "name": "Rocky Mountain Animal Rescue 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-10T15:38:00.000Z",
-  "shortLink": "rocky",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Rocky+Mountain+Animal+Rescue+Poster.png"
-}, {
-  "id": 20,
-  "name": "Pure Skills Football Camp 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-05T22:30:00.000Z",
-  "shortLink": "pureskills",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Pure+Skills+Poster.png"
-}, {
-  "id": 19,
-  "name": "Toolshed Brewing 50/50 Fundraiser in Support of MitoCanada!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-10T23:59:00.000Z",
-  "shortLink": "toolshed",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Mito+Canada+Poster.png"
-}, {
-  "id": 18,
-  "name": "Calgary West U11A Boys Soccer Club 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-05-13T06:00:00.000Z",
-  "shortLink": "westsoccer",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calgary+West+Poster+Update.png"
-}, {
-  "id": 17,
-  "name": "Calgary Flames Foundation Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-04-25T20:25:00.000Z",
-  "shortLink": "flames",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Flames+Marketing+Poster.png"
-}, {
-  "id": 16,
-  "name": "PALS 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-04-20T21:57:00.000Z",
-  "shortLink": "pals",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Pals+Marketing+Poster.png"
-}, {
-  "id": 15,
-  "name": "Dinner Optimist Club of Calgary in support of BRAVE Education for Trafficking Prevention 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-09-22T23:59:00.000Z",
-  "shortLink": "brave",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Luxe+(3).png"
-}, {
-  "id": 14,
-  "name": "Super City Soccer Association 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-01T18:58:00.000Z",
-  "shortLink": "soccer",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Soccer+Generic+Poster.png"
-}, {
-  "id": 13,
-  "name": "Brooks Kingsmen Club Pro Rodeo 50/50 draw!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-15T19:18:00.000Z",
-  "shortLink": "rodeo",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Brooks+Kingsmen+Pro+Rodeo+Poster2.png"
-}, {
-  "id": 12,
-  "name": "Cochrane Minor Hockey Association November Online 50/50 Draw!",
-  "organizationId": 5,
-  "show": true,
-  "active": true,
-  "drawDate": "2019-12-01T07:00:00.000Z",
-  "shortLink": "rockiesnov2019",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+5.25.26+PM.png"
-}, {
-  "id": 11,
-  "name": "AARCS 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-04-05T21:01:00.000Z",
-  "shortLink": "aarcs",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/AARCS+POSTER.png"
-}, {
-  "id": 10,
-  "name": "Grande Prairie Storm Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-03-31T06:00:00.000Z",
-  "shortLink": "storm1",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/GP+STORM+POSTER.png"
-}, {
-  "id": 8,
-  "name": "Calgary Food Bank #FeedYYC 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-04-01T13:15:00.000Z",
-  "shortLink": "feedyyc",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calgary+Food+Bank+Poster1.png"
-}, {
-  "id": 7,
-  "name": "Pawsitive Match July 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-07-14T17:26:00.000Z",
-  "shortLink": "pawsitive",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Pawsitive+Poster.png"
-}, {
-  "id": 6,
-  "name": "Hands-On Growing 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-04-01T06:00:00.000Z",
-  "shortLink": "hog",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/HOG+Poster+Update.png"
-}, {
-  "id": 5,
-  "name": "Canmore & Area Health Care Foundation February 50/50 Draw",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-11-01T10:25:00.000Z",
-  "shortLink": "canmore",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/CANMORE+POSTER.png"
-}, {
-  "id": 4,
-  "name": "Drumheller Dragons Progressive 50/50 Jackpot!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-03-25T06:00:00.000Z",
-  "shortLink": "dragons",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Dragons+Poster+Update.png"
-}, {
-  "id": 3,
-  "name": "Alberta Junior Hockey League February 50/50 Fundraiser",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-03-01T17:00:00.000Z",
-  "shortLink": "ajhl",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/AJHL+WEBPAGE+POSTER.png"
-}, {
-  "id": 2,
-  "name": "Scleroderma Society of N.S. Online 50/50 Fundraiser!",
-  "organizationId": 1,
-  "show": false,
-  "active": false,
-  "drawDate": "2019-06-01T18:00:00.000Z",
-  "shortLink": "ssns",
-  "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Luxe.png"
-}, {
-  "id": 1,
-  "name": "Sackville Minor Hockey Association October 50/50 Draw!",
-  "organizationId": 1,
-  "show": false,
-  "active": true,
-  "drawDate": "2019-07-23T18:00:00.000Z",
-  "shortLink": "flyers",
-  "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Flyers+Poster.png"
-}]
+{
+  "data": [{
+    "id": 187,
+    "name": "test-radio",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-03-17T10:17:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "testradio",
+    "logo": ""
+  }, {
+    "id": 185,
+    "name": "Knights of Columbus (BC) Charity Foundation February 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-03-01T17:58:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "koc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-02-23+at+6.06.48+PM.png"
+  }, {
+    "id": 184,
+    "name": "Nova Scotia Female Hockey September 50/50 Jackpot! ",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-09-30T19:24:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "hnsfemale",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-02-22+at+7.08.24+PM.png"
+  }, {
+    "id": 176,
+    "name": "Alberta SPCA Lottery 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-02-05T12:29:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "spca",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-29+at+8.27.03+AM.png"
+  }, {
+    "id": 175,
+    "name": "Ronald McDonald House of Calgary 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-01-30T21:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "ronaldmcdonaldhouse",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-09+at+9.53.43+PM.png"
+  }, {
+    "id": 174,
+    "name": "PC Party of Nova Scotia Provincial-Wide 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-02-09T20:33:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pcpartyns",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-09+at+9.00.52+AM.png"
+  }, {
+    "id": 173,
+    "name": "Spruce Grove Saints January Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-01-31T17:58:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "saints",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+5.54.45+PM.png"
+  }, {
+    "id": 172,
+    "name": "Junior Dinos Women's 14U-REX Volleyball Team 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-02-04T17:53:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "dinos14urex",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+5.46.43+PM.png"
+  }, {
+    "id": 171,
+    "name": "Calgary Foothills Soccer Club January 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "featured": true,
+    "drawDate": "2020-01-31T16:27:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cfsc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+4.31.43+PM.png"
+  }, {
+    "id": 170,
+    "name": "Camrose Kodiaks January Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "featured": true,
+    "drawDate": "2020-01-26T20:58:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "kodiaks",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-22+at+10.16.56+PM.png"
+  }, {
+    "id": 169,
+    "name": "LLoydminster Bobcats January 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "featured": true,
+    "drawDate": "2020-01-31T17:45:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "bobcats",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-30+at+5.33.01+PM.png"
+  }, {
+    "id": 168,
+    "name": "Acadia Minor Hockey Association January 50/50 Fundraiser!",
+    "organizationId": 9,
+    "show": true,
+    "active": true,
+    "featured": true,
+    "drawDate": "2020-01-28T17:23:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "amha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+6.32.32+PM.png"
+  }, {
+    "id": 167,
+    "name": "University of Calgary Dinos Women's Soccer January 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "featured": true,
+    "drawDate": "2020-02-24T15:54:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "dinosws",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-30+at+3.45.23+PM.png"
+  }, {
+    "id": 166,
+    "name": "Olds Lacrosse Association January Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-01-30T17:39:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "stingers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-27+at+5.58.01+PM.png"
+  }, {
+    "id": 165,
+    "name": "Calgary Canucks January Progressive 50/50 Jackpot! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "featured": true,
+    "drawDate": "2020-09-06T16:36:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "calgarycanucks",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/RaffleBox+1045x576+(1).png"
+  }, {
+    "id": 164,
+    "name": "AMHA Red 1 Novice Flyers Raffle Fundraiser for CALGARY FLAMES TICKETS!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "hero": true,
+    "drawDate": "2020-01-16T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "red1",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-23+at+7.59.09+PM.png"
+  }, {
+    "id": 163,
+    "name": "Strathmore Wheatland Kings Jr Hockey Winter 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-10-10T14:02:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "wheatlandkings",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-17+at+1.50.54+PM.png"
+  }, {
+    "id": 162,
+    "name": "Saint Mary's University Winter 50/50 Fundraiser in Support of United Way Halifax!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-02-01T17:50:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "smu",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Fundraising+Campaign_United+Way_2019.jpg"
+  }, {
+    "id": 161,
+    "name": "A Year of Entertainment Raffle Fundraiser in Support of the Halifax Fringe Festival!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-01-07T02:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "fringe",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Fringe+RAFFLE+IMAGE.png"
+  }, {
+    "id": 160,
+    "name": "Bonnyville Pontiacs Happy New Year Progressive 50/50 Jackpot! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-01-12T19:22:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pontiacs",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-10+at+7.27.06+PM.png"
+  }, {
+    "id": 159,
+    "name": "Hockey Calgary 2020 Esso Minor Hockey Week 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-01-18T11:33:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "hc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-10+at+6.36.53+PM.png"
+  }, {
+    "id": 158,
+    "name": "Okotoks Outlaws Baseball Club 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-01-31T18:14:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "outlaws",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-07+at+6.10.05+PM.png"
+  }, {
+    "id": 157,
+    "name": "Cochrane Minor Hockey Association December Online 50/50 Draw!",
+    "organizationId": 5,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-31T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rockies",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-06+at+5.56.00+PM.png"
+  }, {
+    "id": 156,
+    "name": "SWAT Raptors (SW407) Progressive 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-01-06T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "swatraptors",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-06+at+4.30.43+PM.png"
+  }, {
+    "id": 155,
+    "name": "Calgary Mavericks Midget 3 December 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-24T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "mavericksmidget3",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-05+at+4.33.18+PM.png"
+  }, {
+    "id": 154,
+    "name": "Sport Nova Scotia January 50/50 Fundraiser!",
+    "organizationId": 8,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-01-31T22:22:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "sportnovascotia",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-01+at+10.47.23+PM.png"
+  }, {
+    "id": 153,
+    "name": "Acadia Minor Hockey Association December 50/50 Fundraiser!",
+    "organizationId": 9,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-30T04:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "amhadecember2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-27+at+8.38.41+PM.png"
+  }, {
+    "id": 152,
+    "name": "Altadore Gymnastic Club Holiday Raffle Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-11T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "altadoregymnastics",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-25+at+6.49.40+PM.png"
+  }, {
+    "id": 151,
+    "name": "Knights Hockey Club 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-01-31T17:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "knightshc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-25+at+5.51.31+PM.png"
+  }, {
+    "id": 150,
+    "name": "Valley Wildcats December 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-12-30T20:09:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "wildcats",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-24+at+8.04.59+PM.png"
+  }, {
+    "id": 149,
+    "name": "Camrose Kodiaks December Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-27T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "kodiaksdec2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-24+at+6.57.23+PM.png"
+  }, {
+    "id": 148,
+    "name": "Calgary Gymnastics Centre 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-12-15T21:04:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cgc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-21+at+9.34.56+PM.png"
+  }, {
+    "id": 147,
+    "name": "The Coast 89.7 FM 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-01-27T03:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "coastal",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-05+at+8.29.36+PM.png"
+  }, {
+    "id": 146,
+    "name": "University of Calgary Athletics 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-12-15T21:10:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "dinos",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-20+at+9.07.22+PM.png"
+  }, {
+    "id": 145,
+    "name": "Calgary United Soccer Association Winter 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-12-15T18:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cusa",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-20+at+6.35.17+PM.png"
+  }, {
+    "id": 144,
+    "name": "Redcliff Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-12-15T17:12:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "redcliff",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-19+at+5.20.32+PM.png"
+  }, {
+    "id": 143,
+    "name": "Calgary Foothills Soccer Club December 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-28T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cfscdecember2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-19+at+4.44.36+PM.png"
+  }, {
+    "id": 142,
+    "name": "Bow Valley Minor Hockey 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-01-31T17:49:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "bv",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-17+at+5.42.45+PM.png"
+  }, {
+    "id": 141,
+    "name": "Calgary Southwest United Premiers '06 Girls 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-21T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cswupremiers06",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+2.41.37+PM.png"
+  }, {
+    "id": 140,
+    "name": "Springbank Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-01-31T18:11:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "springbankmha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-13+at+6.01.41+PM.png"
+  }, {
+    "id": 139,
+    "name": "ENTER TO WIN A iPad! BUY A FREE TICKET HERE WITH 'PLAY' MONEY!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-13T03:30:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rafflebox",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-11+at+9.50.32+AM.png"
+  }, {
+    "id": 138,
+    "name": "Supreme Hoops Canada 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-16T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "supremehoops",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-13+at+6.45.59+PM.png"
+  }, {
+    "id": 137,
+    "name": "101.5 The Hawk 50/50 Fundraiser in Support of Ports Hawkesbury Food Bank!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-12-15T22:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "thehawk",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-08+at+10.41.06+PM.png"
+  }, {
+    "id": 136,
+    "name": "Red Nose Talent Show Raffle Fundraiser in Support of the Canadian Mental Health Association PEI!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-17T00:28:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cmhapei",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Raffle+Bannernew.png"
+  }, {
+    "id": 135,
+    "name": "Acadia Minor Hockey Association November 50/50 Fundraiser!",
+    "organizationId": 9,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-27T04:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "amhanovember2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-06+at+5.33.30+PM.png"
+  }, {
+    "id": 134,
+    "name": "Okotoks Oilers Novice B Big Rigs Fall 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-08T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotoksnoviceb",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-03+at+6.00.41+PM.png"
+  }, {
+    "id": 133,
+    "name": "Soccer Nova Scotia Winter 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-03-01T08:35:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "soccerns",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-03+at+8.56.11+AM.png"
+  }, {
+    "id": 132,
+    "name": "Blackfoot Chiefs Midget 1 November 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "blackfootmidget1",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-01+at+8.30.14+AM.png"
+  }, {
+    "id": 131,
+    "name": "Okotoks Oilers Atom 2 Fall 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-04T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotoksatom2",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-30+at+3.44.25+PM.png"
+  }, {
+    "id": 130,
+    "name": "Mount Royal University Fall 50/50 Fundraiser!",
+    "organizationId": 7,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T15:06:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "mru",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-30+at+3.02.03+PM.png"
+  }, {
+    "id": 129,
+    "name": "Truro Centurions Swim Club 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T11:54:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "centurions",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-29+at+8.31.55+AM.png"
+  }, {
+    "id": 128,
+    "name": "Wrestling Nova Scotia November 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-11-30T11:29:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "nswrestling",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-28+at+11.24.26+AM.png"
+  }, {
+    "id": 127,
+    "name": "Crowfoot Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 6,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-01-19T09:50:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "crowfootmha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-28+at+11.06.27+AM.png"
+  }, {
+    "id": 126,
+    "name": "Calgary Crusaders Peewee November 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "crusaderspeewee",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-01+at+4.23.35+PM.png"
+  }, {
+    "id": 125,
+    "name": "Calgary Buffalo Midget AA November 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "buffalomidgetaa",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-01+at+5.23.50+PM.png"
+  }, {
+    "id": 124,
+    "name": "105.9 Seaside-FM 50/50 Jackpot!",
+    "organizationId": 2,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-07T03:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "seasidefm",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+7.55.42+AM.png"
+  }, {
+    "id": 123,
+    "name": "Okotoks Oilers Peewee 3 Fall 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-25T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotokspeewee3",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+1.01.33+PM.png"
+  }, {
+    "id": 122,
+    "name": "Camrose Kodiaks November Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-19T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "kodiaksnov2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-22+at+10.16.56+PM.png"
+  }, {
+    "id": 121,
+    "name": "The Sutter Fund Female Hockey Fundraiser & Gala Online 50/50 Draw!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-26T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "sutterfund",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-03+at+7.09.36+PM.png"
+  }, {
+    "id": 120,
+    "name": "Strathcona Minor Hockey Association January 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-01-30T08:09:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "strathconamha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-12-27+at+5.19.53+PM.png"
+  }, {
+    "id": 119,
+    "name": "Okotoks Oilers Novice Girls 50/50 Fall Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-16T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotoksnovicegirls",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-19+at+6.31.20+PM.png"
+  }, {
+    "id": 118,
+    "name": "Okotoks Oilers Atom Storm Fall 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-11-18T07:01:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotoksatomstorm",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-20+at+11.09.19+AM.png"
+  }, {
+    "id": 117,
+    "name": "Lethbridge Midget Tier 1 November 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-11-30T21:01:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "lethbridge",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-04+at+10.14.46+AM.png"
+  }, {
+    "id": 116,
+    "name": "St. Albert Raiders Peewee A 50/50 Fundraiser!",
+    "organizationId": 3,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-10-25T20:11:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "samhapeeweea",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-11+at+8.08.07+PM.png"
+  }, {
+    "id": 115,
+    "name": "St. Alberta Minor Hockey Association November 50/50 Fundraiser!",
+    "organizationId": 3,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T19:22:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "samha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-11+at+6.16.11+PM.png"
+  }, {
+    "id": 114,
+    "name": "St. Alberta Minor Hockey Association November 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T19:19:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "error",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-11+at+6.16.11+PM.png"
+  }, {
+    "id": 113,
+    "name": "**SOLD OUT!** Okotoks Oilers Peewee AA Blacks October 50/50 Fundraiser #2!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-10-31T18:16:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "peeweeaablack2",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-09+at+6.05.37+PM.png"
+  }, {
+    "id": 112,
+    "name": "Tasa Minor Hockey Association October 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-10-31T14:33:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "tasamha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-08+at+2.25.47+PM.png"
+  }, {
+    "id": 111,
+    "name": "Hockey Calgary October Progressive 50/50 Jackpot Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-10-31T09:15:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "hc2",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-05+at+9.50.21+AM.png"
+  }, {
+    "id": 110,
+    "name": "Chebucto Connections Fall 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T20:22:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "chebucto",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-04+at+8.17.48+PM.png"
+  }, {
+    "id": 109,
+    "name": "Yalenka Ukrainian Dancers Society 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T21:24:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "yalenka",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+9.22.21+PM.png"
+  }, {
+    "id": 108,
+    "name": "High River Junior B Flyers 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-10-31T21:02:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "highriverflyers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+9.00.48+PM.png"
+  }, {
+    "id": 107,
+    "name": "Okotoks Oilers Atom A Ice Kings Fall 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotoksatoma",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-16+at+5.26.54+PM.png"
+  }, {
+    "id": 106,
+    "name": "Foothills Elite Hockey PeeWee AAA October 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-10-31T20:29:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "foothillsaaa",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+8.21.56+PM.png"
+  }, {
+    "id": 105,
+    "name": "Peace Country Female Athletic Club October 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-10-31T19:26:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pcfac",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+7.23.41+PM.png"
+  }, {
+    "id": 104,
+    "name": "Saint Mary's University Fall 50/50 Fundraiser in Support of United Way Halifax!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-13T04:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "smufall",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Fundraising+Campaign_United+Way_2019.jpg"
+  }, {
+    "id": 103,
+    "name": "2020 East Coast IceJam Progressive 50/50 Jackpot! ",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2020-01-12T08:08:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "icejam",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-30+at+8.03.55+AM.png"
+  }, {
+    "id": 102,
+    "name": "Rafflebox 50/50 Fundraiser in Support of Calgary KidSport! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-11T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "kidsport",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-15+at+8.30.01+PM.png"
+  }, {
+    "id": 101,
+    "name": "**SOLD OUT!** Okotoks Oilers Peewee AA Black Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": true,
+    "active": false,
+    "drawDate": "2019-10-31T11:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "peeweeaablack",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-26+at+6.09.04+PM.png"
+  }, {
+    "id": 100,
+    "name": "CAR RAFFLE in Support of Our Lady of Lebanon Maronite Catholic Church!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-11-30T21:14:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "maronitecc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-27+at+2.20.20+PM.png"
+  }, {
+    "id": 99,
+    "name": "Okotoks Oilers Peewee AA Blacks October 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-10-31T18:08:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotokspeeweeaablacks",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-26+at+6.09.04+PM.png"
+  }, {
+    "id": 98,
+    "name": "**SOLD OUT!** Okotoks Oilers Peewee 1 Progressive 50/50 Jackpot Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": false,
+    "drawDate": "2019-10-31T17:33:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "okotokspeewee1",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-04+at+3.45.36+PM.png"
+  }, {
+    "id": 97,
+    "name": "NSCC 50/50 Fall Fundraiser in Support of United Way!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-03T22:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "nscc",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-25+at+3.18.16+PM.png"
+  }, {
+    "id": 96,
+    "name": "Acadia Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 9,
+    "show": true,
+    "active": false,
+    "drawDate": "2019-11-06T04:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "amhaoctober2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-23+at+6.32.32+PM.png"
+  }, {
+    "id": 95,
+    "name": "Dartmouth Whalers Minor Hockey Association October 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-10-31T20:27:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "dwmha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-23+at+8.22.49+PM.png"
+  }, {
+    "id": 94,
+    "name": "Alberta Ballet School Annual 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-05-01T16:46:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "ballet",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-21+at+5.08.20+PM.png"
+  }, {
+    "id": 93,
+    "name": "One Yellow Rabbit Performance Theatre 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-03-01T16:57:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "oneyellowrabbit",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-19+at+4.55.52+PM.png"
+  }, {
+    "id": 92,
+    "name": "Alberta Hands & Voices Fall 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-02T23:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "handsandvoices",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-19+at+3.54.24+PM.png"
+  }, {
+    "id": 91,
+    "name": "Okotoks Oilers December 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-27T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "oilersajhl",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-11-08+at+11.10.59+PM.png"
+  }, {
+    "id": 90,
+    "name": "Strathmore Wheatland Kings Jr Hockey 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-10T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "wheatlandkingsfall",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-18+at+4.18.20+PM.png"
+  }, {
+    "id": 89,
+    "name": "YOUR SCHOOL Fall Frenzy Raffle Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T20:20:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "yourschool",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-12+at+8.13.52+PM.png"
+  }, {
+    "id": 88,
+    "name": "Bacchus October 50/50 Fundraiser In Support of The Mustard Seed!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-01T05:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "bacchus",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-26+at+5.00.01+PM.png"
+  }, {
+    "id": 87,
+    "name": "GoodLife SPiN 4 KiDS 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-09-23T11:55:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "goodlife",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-09+at+11.52.37+AM.png"
+  }, {
+    "id": 86,
+    "name": "Evangeline Minor Hockey Association October Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-10-31T18:44:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "evangeline",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-04+at+6.34.53+PM.png"
+  }, {
+    "id": 85,
+    "name": "Grande Prairie Storm Progressive 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2020-02-14T23:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "storm",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-04+at+1.39.34+PM.png"
+  }, {
+    "id": 84,
+    "name": "Okotoks Minor Hockey Association November 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-30T16:18:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "oilers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-07+at+9.18.27+AM.png"
+  }, {
+    "id": 83,
+    "name": "Sydney Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-03T20:51:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "sydney",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+8.49.52+PM.png"
+  }, {
+    "id": 82,
+    "name": "New Waterford Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-03T20:27:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "newwaterford",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+8.25.17+PM.png"
+  }, {
+    "id": 81,
+    "name": "Glace Bay Minor Hockey Association 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-03T16:52:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "glacebay",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+4.50.17+PM.png"
+  }, {
+    "id": 80,
+    "name": "Cape Breton County Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-03T16:25:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cbcmha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+4.23.34+PM.png"
+  }, {
+    "id": 79,
+    "name": "Your Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-12T14:32:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "example",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-20+at+2.22.58+PM.png"
+  }, {
+    "id": 78,
+    "name": "Western Valley Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T18:49:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "spartans",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+6.48.18+PM.png"
+  }, {
+    "id": 77,
+    "name": "Clare-Digby Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T18:38:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cdmha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+6.35.45+PM.png"
+  }, {
+    "id": 76,
+    "name": "South Shore Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T18:18:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "sharks",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+6.17.15+PM.png"
+  }, {
+    "id": 75,
+    "name": "Shelbourne County Minor Hockey Association 5050 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T17:47:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "shelbourne",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.45.32+PM.png"
+  }, {
+    "id": 74,
+    "name": "Queens County Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T17:37:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cougars",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.36.08+PM.png"
+  }, {
+    "id": 73,
+    "name": "Straight Richmond Minor Hockey 5050 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T17:20:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pirates",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.19.03+PM.png"
+  }, {
+    "id": 72,
+    "name": "Cape Breton West Minor Hockey Association August 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T17:05:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "islanders",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+5.02.50+PM.png"
+  }, {
+    "id": 71,
+    "name": "West Hants Minor Hockey Association August 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-01T16:34:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "warriors",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+4.32.25+PM.png"
+  }, {
+    "id": 70,
+    "name": "Acadia Minor Hockey Association August 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-08T15:48:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "acadia",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-18+at+3.43.55+PM.png"
+  }, {
+    "id": 68,
+    "name": "Alberta Cancer Foundation August Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-08-27T20:05:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "acf",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-13+at+8.07.27+PM.png"
+  }, {
+    "id": 67,
+    "name": "Shaw Charity Classic Online Raffle Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-02T18:10:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "shaw",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-12+at+6.07.53+PM.png"
+  }, {
+    "id": 66,
+    "name": "Pictou County Minor Hockey Association",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T20:05:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pictou",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.56.26+PM.png"
+  }, {
+    "id": 65,
+    "name": "Canso & Area Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T19:58:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "canso",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.56.10+PM.png"
+  }, {
+    "id": 64,
+    "name": "Tatamagouche & Area Minor Hockey Association",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T19:34:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "tatamagouche",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.32.22+PM.png"
+  }, {
+    "id": 63,
+    "name": "Chester Minor Hockey Association 50/50 Fundraiser! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-08-26T19:19:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "chester",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.18.21+PM.png"
+  }, {
+    "id": 62,
+    "name": "West Colchester Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T19:11:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "westcolchester",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+7.09.16+PM.png"
+  }, {
+    "id": 61,
+    "name": "South Colchester Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T18:52:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "southcolchester",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-11+at+6.51.26+PM.png"
+  }, {
+    "id": 60,
+    "name": "Rugby Nova Scotia Online Fall 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-11-30T15:46:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rugbyns",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-08+at+3.44.01+PM.png"
+  }, {
+    "id": 59,
+    "name": "BEAM Foundation Online Fall Raffle!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "beam",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/beam_banner_gratitude.png"
+  }, {
+    "id": 58,
+    "name": "Cumberland County Minor Hockey Association September Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T17:36:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "ramblers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-07+at+4.52.26+PM.png"
+  }, {
+    "id": 57,
+    "name": "Truro Area Minor Hockey September 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T08:51:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "tamha",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-07+at+8.16.49+AM.png"
+  }, {
+    "id": 56,
+    "name": "Nova Scotia Government United Way September 50/50 Fundraising Campaign!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-30T14:24:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "nsunitedway",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/UNITED+NS+POSTER.png"
+  }, {
+    "id": 55,
+    "name": "Canadian Junior Football League Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-08-05T21:13:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cjhl",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/CJFL+POSTER.png"
+  }, {
+    "id": 54,
+    "name": "Evan Skowron Memorial Golf Tournament 50/50 Fundraiser in Support of the Centre for Suicide Prevention",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-06T20:35:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "evanskowron",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/golf+poster.png"
+  }, {
+    "id": 53,
+    "name": "Rotary Club of Calgary 50/50 Fundraiser in Support of United Way! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-10-31T18:21:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rotary",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Rotary+Poster.png"
+  }, {
+    "id": 52,
+    "name": "Raising Spirits 50/50 Fundraiser in Support of the Alberta Children's Hospital! ",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-31T20:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "spirits",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Raising+Poster.png"
+  }, {
+    "id": 51,
+    "name": "Tasa Minor Hockey Association September 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-11T17:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "tasa",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Tasa+Poster.png"
+  }, {
+    "id": 50,
+    "name": "Eastern Shore Minor Hockey Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-22T16:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "easternshore",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Eastern+Shore+Poster.png"
+  }, {
+    "id": 49,
+    "name": "East Hants Minor Hockey Association September 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-22T16:21:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "penguins",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/East+Hants+Poster.png"
+  }, {
+    "id": 48,
+    "name": "Chebucto Minor Hockey Association September 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-22T15:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "atlantics",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Atlantics+poster2.png"
+  }, {
+    "id": 47,
+    "name": "The Leukemia & Lymphoma Society of Canada Atlantic Region Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-22T14:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "lls",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/LL+poster.png"
+  }, {
+    "id": 46,
+    "name": "Big Brothers Big Sisters of Greater Halifax Online Raffle Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-08-31T18:24:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "bbbs",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/BB+poster.png"
+  }, {
+    "id": 45,
+    "name": "Summerside Minor Hockey Association Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-14T16:54:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "capitals",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Capitals+Poster.png"
+  }, {
+    "id": 44,
+    "name": "Charlottetown Minor Hockey Association Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-05T16:05:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "abbies",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Abbies+Poster.png"
+  }, {
+    "id": 43,
+    "name": "The Foothills Cowboy Association STAMPEDE Raffle!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-07-03T23:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "fca",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/FCARODEO+POSTER5.png"
+  }, {
+    "id": 42,
+    "name": "FEED NOVA SCOTIA Summer Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-07T15:14:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "feedns",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/feedNS+Poster.png"
+  }, {
+    "id": 41,
+    "name": "Yarmouth County Minor Hockey Association Summer Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-08T09:27:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "mariners",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Mariners+Poster2.png"
+  }, {
+    "id": 40,
+    "name": "Citadel Community Association July Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-31T17:04:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "citadel",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Citadel+Poster.png"
+  }, {
+    "id": 39,
+    "name": "Maritime Junior Hockey League Online 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-01T19:04:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "mhl",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Maritime+Poster.png"
+  }, {
+    "id": 38,
+    "name": "Concorde Group Online Stampede 50/50 Fundraiser in Support of FEEDYYC!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-11-22T09:29:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "stampede",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Concorde+Poster2.png"
+  }, {
+    "id": 37,
+    "name": "THE BIG SWIM Online 50/50 Fundraiser in support of Brigadoon!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-08-19T03:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "bigswim",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/The+Big+Swim+Poster3.png"
+  }, {
+    "id": 36,
+    "name": "Mcknight Hockey Association August Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-08-30T16:44:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "mcknight",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/McKnight+Poster.png"
+  }, {
+    "id": 35,
+    "name": "Greta Bar July 50/50 Fundraiser in Support of THE MUSTARD SEED!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-24T20:42:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "greta",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Greta+Bar+Poster2.png"
+  }, {
+    "id": 34,
+    "name": "Halifax Hawks Minor Hockey Association January 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2020-01-31T08:40:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "hawks",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2020-01-03+at+9.00.25+PM.png"
+  }, {
+    "id": 33,
+    "name": "CRAFT Beer Market July Online 50/50 Fundraiser in Support of MitoCanada!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-08-12T18:02:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "craft",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/CRAFT+poster4.png"
+  }, {
+    "id": 32,
+    "name": "Chestermere Minor Hockey Association November 50/50 Fundraiser!",
+    "organizationId": 4,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "lakers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-31+at+9.22.14+PM.png"
+  }, {
+    "id": 31,
+    "name": "Drumheller Dragons Summer Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-10-15T01:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "summerdragons",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Dragons+summer+poster.png"
+  }, {
+    "id": 30,
+    "name": "Dartmouth Whalers Minor Hockey Association Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-04T20:17:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "whalers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-09-23+at+8.22.49+PM.png"
+  }, {
+    "id": 29,
+    "name": "Cole Harbour Bel Ayr Minor Hockey Association Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-16T10:34:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "wings",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Cole+Harbour+5050+Poster.png"
+  }, {
+    "id": 28,
+    "name": "Scleroderma Nova Scotia Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-06-22T20:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "scleroderma",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Scleroderma+Poster.png"
+  }, {
+    "id": 27,
+    "name": "Halifax Minor Baseball Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-15T15:16:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "hmb",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Halifax+Minor+Baseball+Poster2.png"
+  }, {
+    "id": 26,
+    "name": "Jazz & Chorus Employees Online Raffle Fundraiser in Support of Dartmouth General Hospital! ",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-09-10T18:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "jazz",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-08-12+at+4.49.15+PM.png"
+  }, {
+    "id": 25,
+    "name": "Cavalry FC Progressive Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-09T21:34:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "cavalryfc",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calvary+FC+Poster.png"
+  }, {
+    "id": 24,
+    "name": "Halifax Greek Festival Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-06-09T22:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "greekfest",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Greek+Fest+Poster5.png"
+  }, {
+    "id": 23,
+    "name": "Springbank GU13 Minor Soccer Team Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-06-11T06:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "springbankgu13",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Springbank+GU13+Team+Pic.png"
+  }, {
+    "id": 22,
+    "name": "Calgary West U12A Boys Soccer Club 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-07-01T06:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "westsocceru12ab",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calgary+West+Team+Photo.png"
+  }, {
+    "id": 21,
+    "name": "Rocky Mountain Animal Rescue 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-10T15:38:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rocky",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Rocky+Mountain+Animal+Rescue+Poster.png"
+  }, {
+    "id": 20,
+    "name": "Pure Skills Football Camp 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-05T22:30:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pureskills",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Pure+Skills+Poster.png"
+  }, {
+    "id": 19,
+    "name": "Toolshed Brewing 50/50 Fundraiser in Support of MitoCanada!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-10T23:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "toolshed",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Mito+Canada+Poster.png"
+  }, {
+    "id": 18,
+    "name": "Calgary West U11A Boys Soccer Club 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-05-13T06:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "westsoccer",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calgary+West+Poster+Update.png"
+  }, {
+    "id": 17,
+    "name": "Calgary Flames Foundation Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-04-25T20:25:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "flames",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Flames+Marketing+Poster.png"
+  }, {
+    "id": 16,
+    "name": "PALS 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-04-20T21:57:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pals",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Pals+Marketing+Poster.png"
+  }, {
+    "id": 15,
+    "name": "Dinner Optimist Club of Calgary in support of BRAVE Education for Trafficking Prevention 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-09-22T23:59:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "brave",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Luxe+(3).png"
+  }, {
+    "id": 14,
+    "name": "Super City Soccer Association 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-01T18:58:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "soccer",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Soccer+Generic+Poster.png"
+  }, {
+    "id": 13,
+    "name": "Brooks Kingsmen Club Pro Rodeo 50/50 draw!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-15T19:18:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rodeo",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Brooks+Kingsmen+Pro+Rodeo+Poster2.png"
+  }, {
+    "id": 12,
+    "name": "Cochrane Minor Hockey Association November Online 50/50 Draw!",
+    "organizationId": 5,
+    "show": true,
+    "active": true,
+    "drawDate": "2019-12-01T07:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "rockiesnov2019",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Screen+Shot+2019-10-03+at+5.25.26+PM.png"
+  }, {
+    "id": 11,
+    "name": "AARCS 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-04-05T21:01:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "aarcs",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/AARCS+POSTER.png"
+  }, {
+    "id": 10,
+    "name": "Grande Prairie Storm Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-03-31T06:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "storm1",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/GP+STORM+POSTER.png"
+  }, {
+    "id": 8,
+    "name": "Calgary Food Bank #FeedYYC 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-04-01T13:15:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "feedyyc",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Calgary+Food+Bank+Poster1.png"
+  }, {
+    "id": 7,
+    "name": "Pawsitive Match July 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-07-14T17:26:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "pawsitive",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Pawsitive+Poster.png"
+  }, {
+    "id": 6,
+    "name": "Hands-On Growing 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-04-01T06:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "hog",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/HOG+Poster+Update.png"
+  }, {
+    "id": 5,
+    "name": "Canmore & Area Health Care Foundation February 50/50 Draw",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-11-01T10:25:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "canmore",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/CANMORE+POSTER.png"
+  }, {
+    "id": 4,
+    "name": "Drumheller Dragons Progressive 50/50 Jackpot!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-03-25T06:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "dragons",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Dragons+Poster+Update.png"
+  }, {
+    "id": 3,
+    "name": "Alberta Junior Hockey League February 50/50 Fundraiser",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-03-01T17:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "ajhl",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/AJHL+WEBPAGE+POSTER.png"
+  }, {
+    "id": 2,
+    "name": "Scleroderma Society of N.S. Online 50/50 Fundraiser!",
+    "organizationId": 1,
+    "show": false,
+    "active": false,
+    "drawDate": "2019-06-01T18:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "ssns",
+    "logo": "https://s3-us-west-2.amazonaws.com/rafflebox-photos/Luxe.png"
+  }, {
+    "id": 1,
+    "name": "Sackville Minor Hockey Association October 50/50 Draw!",
+    "organizationId": 1,
+    "show": false,
+    "active": true,
+    "drawDate": "2019-07-23T18:00:00.000Z",
+    "jackpot": "27688.77",
+    "shortLink": "flyers",
+    "logo": "https://rafflebox-photos.s3-us-west-2.amazonaws.com/Flyers+Poster.png"
+  }]
+}

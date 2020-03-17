@@ -2,7 +2,7 @@
     <div class="inner-page">
 
         {% assign idx = 0 %}
-        {% for raffle in site.data.raffles %}
+        {% for raffle in site.data.raffles.data %}
         {% if raffle.show != true or raffle.active != true %}
             {% assign idx = idx | plus:1 %}
         {% endif %}
@@ -16,9 +16,9 @@
 
         <div class="wrapper-list wrapper-raffles" id="{{ include.id }}">
                 {% assign idx = 0 %}
-                {% for raffle in site.data.raffles %}
+                {% for raffle in site.data.raffles.data %}
                     {% if raffle.show != true or raffle.active != true %}
-                        <div class="raffle" data-tags="{{ raffle.shortLink}} {{ raffle.name }}">
+                        <div class="raffle" data-tags="{{ raffle.shortLink}} {{ raffle.name }}" id="{{ raffle.id }}">
                             <img src="{{ raffle.logo }}" alt="" />
                             <div>
                                 <p class="description">

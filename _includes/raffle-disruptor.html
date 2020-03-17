@@ -1,6 +1,6 @@
 <section class="container-disruptor with-image" id="{{include.id}}">
     <div class="inner-page">
-        {% for raffle in site.data.raffles %}
+        {% for raffle in site.data.raffles.data %}
         {% if raffle.show and raffle.active and raffle.hero %}
             <img src="{{ raffle.logo }}" alt="" />
             <div class="headline reverse">
