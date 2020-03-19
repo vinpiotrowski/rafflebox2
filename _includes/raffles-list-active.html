@@ -22,16 +22,15 @@
             </form>
         </div>
 
-
         <div class="wrapper-list wrapper-raffles" id="{{ include.id }}">
                 {% assign idx = 0 %}
                 {% for raffle in site.data.raffles.data %}
                     {% if raffle.show and raffle.active and raffle.featured != true %}
-                        <div class="raffle" data-tags="{{ raffle.shortLink}} {{ raffle.name }}" id="{{ raffle.id }}">
+                        <div class="raffle" data-tags="{{ raffle.shortLink}} {{ raffle.name | escape }}" id="{{ raffle.id }}">
                             <img src="{{ raffle.logo }}" alt="" />
                             <div>
                                 <p class="description">
-                                    {{ raffle.name | escape jsonify }}
+                                    {{ raffle.name | escape }}
                                 </p>
                                 <strong class="raffle-price">
                                     $X,XXX
