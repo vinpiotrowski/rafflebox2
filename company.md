@@ -57,7 +57,7 @@ img-2="./images/rafflebox-leaders.jpg"
 include leader-descriptions.html
 
 leader-image-1="./images/profile-matt.jpg" 
-leader-name-1="Matthew Broussard"
+leader-name-1="Matthew Broussard, CEO"
 leader-description-1="Matthew is responsible for the overall vision and growth strategy of Rafflebox.  He has 10 years experience in Market Analytics & Forecasting."
 
 leader-image-2="./images/profile-simon.jpg" 
