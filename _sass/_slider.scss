@@ -23,7 +23,7 @@
 
       .slide {
         flex: none;
-        padding: 0 28px;
+        padding: 0 7px;
         position: relative;
         overflow: hidden;
         touch-action: pan-y;
@@ -36,7 +36,7 @@
         }
 
         @media(min-width: 998px) {
-          padding: 0 14px;
+          padding: 0 7px;
           width: 33%;
           width: calc( 100% / 3 );
         }
