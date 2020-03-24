@@ -1,7 +1,9 @@
 .container-raffle-list {
   background: $off-white;
-  border-top: solid 3px #EEEEEE;
+  /*border-top: solid 3px #EEEEEE;*/
+  border-top: solid 14px $green;
   padding: 35px 0 35px;
+  position: relative;
   text-align: center;
 
   .headline {
