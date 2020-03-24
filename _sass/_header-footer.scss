@@ -148,14 +148,19 @@
     @media(min-width: 998px) {
       font-size: $medium;
     }
+
+    &.secondary {
+      background: $blue;
+      box-shadow: none;
+      min-width: 70px;
+      padding: 7px 14px;
+    }
   }
-
-
-
+  
   @media(min-width: 998px) {
     ul {
       float: right;
-      margin: 10px 0;
+      margin: 10px 0 0;
       padding: 0;
       text-align: left;
     }
@@ -204,12 +209,6 @@
 
     @media(min-width: 998px) {
       content: none;
-    }
-  }
-
-  @media(min-width: 998px) {
-    .primary-nav li:last-child a {
-      padding: 0 0 0 14px;
     }
   }
 
